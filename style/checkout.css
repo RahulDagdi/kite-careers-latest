@@ -1,0 +1,154 @@
+    /* COURSE CARD */
+    .course-card {
+      border-radius: 6px;
+      padding: 12px;
+      display: flex; 
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); 
+    }
+
+    .course-img {
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .course-title {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #363942;
+    }
+
+    .course-desc {
+      font-size: 0.9rem;
+      color: #6E7380;
+      font-weight: 400;
+      
+    }
+
+    .rating {
+      color: #f5a623;
+    }
+    .text-mute{
+       font-weight: 400;
+       font-size: 0.75rem;
+       color: #6E7380;
+    }
+
+    .duration {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #6E7380;
+    }
+
+    .price {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #7E00A7;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #6E7380;
+      font-size: 0.85rem;
+      font-weight: 400;
+    }
+
+    /* RIGHT PANEL */
+    
+
+    .coupon-input {
+      font-size: 0.85rem;
+    }
+
+    .summary-title {
+      font-weight: 700;
+      font-size: 0.9rem;
+      
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #363942;
+      
+    }
+
+    .summary-row span:last-child {
+      color: #7E00A7;
+     
+    }
+
+    .total {
+      font-weight: 700;
+      margin-top: 0.9rem;
+    }
+
+    .checkout-btn {
+      background: #7E00A7;
+      color: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      border: none;
+      width: 100%;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .checkout-btn:hover {
+      background: #6b0091;
+    }
+
+
+   /* .coupon-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 700px;
+} */
+
+.coupon-label {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #363942;
+    white-space: nowrap;
+}
+
+.apply-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border-radius: 5px;
+    background: #FBFBFB;
+}
+
+.apply-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #C3C3C3;
+    background: #FBFBFB
+}
+
+
+
+.apply-wrapper button {
+    background: none;
+    border: none;
+    color: #7E00A7;
+    font-weight: 700;
+    font-size: 0.7rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.apply-wrapper button:hover {
+    text-decoration: underline;
+}
+@media (min-width:992px) {
+    .ms-lg{
+    margin-left: 10rem;
+}
+}

@@ -1,0 +1,425 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #f4d6ff);
+}
+
+/* Colors */
+.bg-purple {
+  background-color: #7E00A7 !important;
+}
+
+.text-purple {
+  color: #7E00A7 !important;
+}
+
+.Certificate_btn {
+  position: relative;
+  right: 50px;
+  width: 208px;
+  height: 42px;
+  border-radius: 10px;
+
+}
+
+.Certificate_btn span {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  width: 116px;
+  height: 23px;
+  position: relative;
+
+}
+
+/* Summary Card */
+.summary-card {
+  border-radius: 18px;
+}
+
+.Quiz_Answer_Key {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 100%;
+
+
+}
+
+.Quiz_Answer_Key small {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  position: relative;
+  top: 10px;
+
+}
+
+
+/* Trophy Icon */
+.trophy-box {
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.trophy-icon {
+  width: 36px;
+  height: 36px;
+}
+
+/* Score Box */
+.score-box {
+  border-radius: 14px;
+}
+
+/* Stats rows */
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255);
+  color: black;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+.chapter_btn {
+  line-height: 100%;
+  padding: 20px;
+  size: 15px;
+  margin-top: 20px;
+  background: #7E00A7;
+  border-radius: 18px;
+}
+
+.chapter_btn:hover {
+  background: #7d00a7bb;
+
+}
+
+/* Question Cards */
+.question-card {
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  background: #FFFFFF;
+}
+
+
+
+.questions_number_div .questions_number {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  /* bold text */
+  line-height: 16px;
+}
+
+
+
+._question {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  position: relative;
+  left: 30px;
+
+
+}
+
+.border-success-left {
+  border-left: 6px solid #2dbf64;
+}
+
+.border-danger-left {
+  border-left: 6px solid #e55353;
+}
+
+.wrong {
+  margin-top: 10px;
+}
+
+/* Status Icons */
+.status-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Options */
+.option {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+  position: relative;
+  /* display: flex; */
+  align-items: center;
+  justify-content: start;
+
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  border-radius: 50%;
+  /* perfect circle */
+  border: 1px solid #B1B1B1;
+  /* border color */
+  color: #000;
+  text-align: center;
+  /* text visible */
+}
+
+.circle_wrong {
+  background: #FF0B0B;
+  color: white;
+}
+
+.circle_wrong img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_right {
+  background: #00C957;
+  color: white;
+}
+
+
+.status {
+  position: absolute;
+  right: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.correct-option {
+  background-color: #e9f9f0;
+  border-color: #2dbf64;
+}
+
+.wrong-option {
+  background-color: #fdecec;
+  border-color: #e55353;
+}
+
+/* Details */
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  cursor: pointer;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  background-color: #fff;
+  margin-right: 200px;
+  border-radius: 10px;
+  width: 100%;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+
+.details img {
+  margin-right: 10px;
+  width: 19.76px;
+  height: 18.53px;
+}
+
+.continue-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* left aligned */
+  padding-top: 30px;
+}
+
+.continue-section p {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  /* span ke bilkul paas */
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+
+}
+
+.continue-section span {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+  /* button se thoda gap */
+  line-height: 19px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.continue-section .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  /* padding-top:40px; */
+  font-size: 14px;
+  border-radius: 6px;
+  background: #7E00A7;
+  width: 100%;
+  margin-right: 200px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+
+  .details {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .continue-section .btn {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  /* Columns stack */
+  .col-lg-3,
+  .col-lg-9 {
+    width: 100%;
+  }
+
+  /* Summary card center */
+  .summary-card {
+    margin-bottom: 24px;
+  }
+
+  /* Details width fix */
+  .details {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Continue button */
+  .continue-section .btn {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Question text alignment */
+  ._question {
+    left: 0;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+
+  /* Container spacing */
+  .container,
+  .container-fluid {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Top bar */
+  .Certificate_btn {
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+  }
+
+  .Certificate_btn span {
+    font-size: 14px;
+  }
+
+  /* Heading */
+  .Quiz_Answer_Key {
+    padding: 16px !important;
+    font-size: 16px;
+  }
+
+  .Quiz_Answer_Key small {
+    font-size: 14px;
+  }
+
+  /* Summary card */
+  .summary-card {
+    margin-bottom: 20px;
+  }
+
+  /* Chapter button */
+  .chapter_btn {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  /* Question card */
+  .question-card {
+    padding: 16px !important;
+  }
+
+  .questions_number {
+    font-size: 16px;
+  }
+
+  ._question {
+    left: 0;
+    font-size: 14px;
+  }
+
+  /* Options */
+  .option {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .circle {
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+
+  /* Details section */
+  .details {
+    width: 100%;
+    margin-right: 0;
+    padding: 14px;
+  }
+
+  /* Continue section */
+  .continue-section .btn {
+    width: 100%;
+    margin-right: 0;
+  }
+}

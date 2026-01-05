@@ -1,0 +1,110 @@
+.invite-top{
+  font-weight: 700;
+  font-size: 1rem;
+}
+.invite-wrapper {
+  overflow: hidden;
+  background: #fff;
+}
+
+.invite-text {
+  font-size: 1.26rem;
+  font-weight: 700;
+  color: #6E7380;
+  max-width: 431px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #7a00cc;
+}
+
+.refer-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.referral-input {
+  border: 1px dashed #7E00A7;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #7E00A7;
+ 
+}
+
+.btn-purple {
+  background: #7E00A7;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.btn-purple:hover {
+  background: #6a00b3;
+}
+.fw-invite{
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.invite-item {
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 0.25rem;
+  background: #F5DCFE
+}
+
+.invite-item small {
+  color: #8b8b8b;
+}
+
+.icon {
+  width: 36px;
+  height: 38px;
+}
+.fw-mediums{
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #6E7380;
+}
+.list-para{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #6E7380;
+}
+.rupee{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.bg-vector {
+  position:relative;
+  bottom: 308px;
+  right: 0px;
+  width: 100%;
+  z-index: 0;
+  max-height: 464px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 997px) and (max-width:1400px) {
+  .btn-purple{
+    margin-top: 0px !important;
+  }
+  .text-center{
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width: 1125px) {
+  .invite-text {
+    max-width: 100%;
+  }
+
+  .bg-vector {
+    bottom: 277px;
+  }
+}

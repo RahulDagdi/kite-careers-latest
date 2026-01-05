@@ -1,0 +1,102 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: radial-gradient(circle at bottom, #f3d9ff, #ffffff 65%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .trophy {
+      width: 337px;
+      height: 337px;
+      margin: 0 auto 25px;
+    }
+
+    .title {
+      color: #7E00A7;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+    .title-sorry{
+
+         color: #FA6D6D;
+         font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .description {
+      color: #6E7380;
+      font-size: 20px;
+      line-height: 1.6;
+      max-width: 520px;
+      margin: 0 auto 25px;
+    }
+
+    .score-label {
+      color:#6E7380;
+      font-size: 20px;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .score {
+      color: #7E00A7;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+.btn_div {
+  display: flex;
+  flex-direction: column;      /* one button per line */
+  align-items: center;         /* horizontal center */
+  justify-content: center;
+  gap: 16px;                   /* space between buttons */
+  margin-top: 40px;
+}
+
+/* Button styling */
+.btn {
+  width: 484px;
+  height: 42px;
+  top: 706px;
+  left: 441px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #7E00A7, #7E00A7);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(138, 15, 200, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(138, 15, 200, 0.4);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .btn {
+    width: 90%;
+  }
+}

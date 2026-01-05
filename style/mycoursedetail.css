@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(135deg, #f5dcfe, #ffffff);
+  font-family: "Inter", sans-serif;
+}
+
+/* Video */
+.video-wrapper {
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  background: white;
+  opacity: 0.5;
+  color: #7e00a7;
+  width: 98px;
+  height: 103px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+}
+
+.progress {
+  height: 9px;
+  margin-top: 1rem;
+}
+.progress-bar {
+  background: #7e00a7;
+}
+/* Bottom overlay */
+.video-progress-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 43px 16px;
+  background: rgba(217, 217, 217, 0.5); /* semi-transparent */
+  backdrop-filter: blur(2px);
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+/* Lecture List */
+.Lecture-header {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+.quiz-text {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #6e7380;
+}
+.Lecture-detail {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+/* Actions */
+.action-link {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.lecture-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.lectureitem-answer {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: black;
+}
+
+.lecture-item.active {
+  border-bottom-color: #8e2de2;
+}
+
+/* Sidebar */
+
+.section-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.lecture-head {
+  font-size: 1.0625rem;
+  font-weight: 700;
+}
+.lecture-question {
+  font-weight: 700;
+  font-size: 1.0625rem;
+}
+.lecture-answer {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.lecture-time {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #7e00a7;
+}
+.play-whitebtn {
+  background: white;
+  color: #7e00a7;
+  width: 48px;
+  height: 47px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  align-self: center;
+}
+
+.sidebar-item {
+  display: flex;
+}
+
+.play-sm {
+  color: #7e00a7;
+}

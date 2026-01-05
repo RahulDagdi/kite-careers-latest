@@ -1,0 +1,25 @@
+/* Header */
+.course-header {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 1);
+}
+body {
+  margin: 0;
+ background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
+}
+
+
+.about-content p {
+  font-size: 0.8125 rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(110, 115, 128, 1);
+}
+
+.more-text {
+  color: #8a00c4;
+  font-size:0.8125 rem ;
+  cursor: pointer;
+  font-weight: 600;
+}

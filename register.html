@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link  rel="stylesheet" href="style/style.css" ></link>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+  <div class="top-offer-bar text-white py-2">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Offer text -->
+      <div class="col-12 col-md-4 col-lg-4 text-center text-lg-start mb-2 mb-lg-0">
+        <span>All course 28% off for <strong class="top-limited">Limited time period</strong></span>
+      </div>
+
+      <!-- Contact info -->
+      <div class="col-12 col-md-4 col-lg-5 d-flex justify-content-center justify-content-md-start gap-5 mb-2 mb-lg-0 flex-wrap">
+        <span>
+          <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center " >
+            <img src="img/icon/phone.svg" alt="">
+          </div>
+          (970) 262-1413
+        </span>
+
+        <span>
+          <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center">
+            <img src="img/icon/email2.svg" alt="">
+          </div>
+          kitecareers@gmail.com
+        </span>
+      </div>
+
+      
+
+      <!-- Social icons -->
+      <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center  align-items-center justify-content-lg-end gap-3">
+         
+        <img src="img/icon/facebook-svgrepo-com (1) 1.svg"/>
+        <img src="img/icon/instagram-svgrepo-com 1.svg"/>
+        <img src="img/icon/Vector.svg" />
+        <div class="bg-round d-flex justify-content-center p-1 rounded-5">
+            <img src="img/icon/language.svg"/>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--  MAIN NAVBAR -->
+<nav class="navbar navbar-expand-lg my-2  ">
+    <div class="container">
+
+         <!-- LOGO -->
+        <a class="navbar-brand " href="#" >
+            <img src="img/logo/kite-logo.svg" alt="Brand Logo" class="img-fluid " >    
+        </a>
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAV MENU -->
+        <div class="collapse navbar-collapse" id="navMenu">
+
+            <!-- SEARCH BAR (CENTER) -->
+            <!-- <form class="mx-auto search-bar d-none d-lg-flex align-items-center "> 
+              <i class="fa-solid fa-magnifying-glass search-icon ms-2"></i>  <input type="text" placeholder="Search for anything" class="form-control">  
+            </form> -->
+              <form class="mx-auto search-bar   d-lg-flex align-items-center " style="min-width: 35% !important;"> 
+              <img src="img/icon/search-svgrepo-com (1) 1.svg" height="19px" width="19px" class="mx-1">  <input type="text" placeholder="Search for anything" class="border-0  d-flex align-items-center second-input " >  
+            </form>
+
+            <!-- RIGHT MENU -->
+            <ul class="navbar-nav  align-items-center gap-1">
+                <li class="nav-item"><a class="nav-link px-0" href="#">Plans and pricing</a></li>
+                <li class="nav-item"><a class="nav-link px-0" href="#">Account</a></li>
+                <li class="nav-item"><a class="nav-link px-0" href="#"><img src="img/icon/shopping-cart-svgrepo-com 1.svg" alt="Cart"  ></a></li>
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-purple btns  me-2" href="login.html">Log in</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-purple btns " href="register.html">Sign up</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row min-vh-100 d-flex   ">
+
+        <!-- LEFT SECTION -->
+        <div class="col-lg-8 left-section py-5 row">
+            <div class="col-md-5 ">
+               
+
+                <h2 class="title">Take your education<br>at the next level</h2>
+                <p class="content mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr.</p>
+            </div>
+            <div class="col-md-7 " style="position: relative;left: -10%;">
+            <img src="img/students/New Project.png" alt="students" class=""  height="350px"  >
+                
+                            <!-- <img src="img/students/Vector 6.png" class="img-fluid mt-4" alt="students" height="463px"> -->
+            </div>
+            <!-- Replace the above image link with your own if needed -->
+        </div>
+
+        <!-- RIGHT SECTION -->
+        <div class="col-lg-4 " style="padding-right: 0px;">
+            <div class="auth-box">
+                <div class="mb-4 d-flex justify-content-center">
+                      <img src="img/icon/main-profile.svg" />
+                  </div> 
+                  <div class="content mb-5 text-center">Change Profile 
+                    <span><img src="img/icon/camera.svg" /></span>
+                  </div>
+                <h5 class="text-center mb-4 auth-title">
+                    Add your information to create a new account.
+                </h5>
+
+                <!-- Phone Input -->
+                <!-- <label class="form-label">Phone Number</label> -->
+                 <div class="mt-5">
+
+                    <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/profile.svg"  height="19px" width="19px" />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your name ">
+                    </div>
+                    <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/email-box.svg"  height="19px" width="19px" />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your mail id">
+                    </div>
+                  
+
+                    <div class="row">
+                        <div class="col-md-6">
+                             <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/male.svg"  height="19px" width="19px" />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Male" style="width: 100%;">
+                    </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                             <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/female.svg"  height="19px" width="19px" />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Female" style="width: 100%;">
+                    </div>
+
+                        </div>
+
+                    </div>
+
+                       <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/email-box.svg"  height="19px" width="19px" />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your address  (optional)">
+                    </div>
+                    
+                       <div class="form-control d-flex align-items-center mb-3">
+                        <img src="img/icon/referral.svg"  height="19px" width="19px"  />
+
+                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Referral code (optional)">
+                    </div>
+                    
+
+
+     
+                      
+                     <div class="content mb-5">Accept Terms & Conditions</div>
+                 </div>
+
+                <button class="btn btn-purple w-100 ">Confirm Register</button>
+
+               
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="footer-section">
+  <div class="container py-5">
+    <div class="row g-4 position-relative">
+
+      <!-- COLUMN 1 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+        <!-- Low opacity image -->
+        <img src="img/footer/260-2608530_spoken-english-clipart 2.svg" class="footer-bg-img top" alt="">
+
+        <img src="img/logo/kite-logo.svg" class="mb-4" alt="Kitecareers">
+
+        <h6 class="fw-text">Contact us</h6>
+
+        <div class="d-flex center align-items-center gap-2 mb-2">
+           <divs class="bg-round p-1 rounded-5 d-inline-block   justify-content-center " >
+            <img src="img/icon/phone.svg" alt="">
+          </divs>
+          <span class="bg-text">+91 75867465784</span> 
+        </div>
+
+        <div class="d-flex center align-items-center gap-2">
+            <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center " >
+            <img src="img/icon/email2.svg" alt="">
+          </div>
+          <span class="bg-text">kitecareers@gmail.com</span>
+        </div>
+        <!-- Low opacity image -->
+        <img src="./images/Outstanding-Characteristic 2.png" class="footer-bg-img bottom" alt="">
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+           <!-- Low opacity image -->
+        <img src="img/footer/pngtree-online-learning-education-element-png-image_11596785 2.svg" class="footer-bg-img top" alt="">
+        <h6 class="fw-text">About</h6>
+        <ul class="footer-list bg-text">
+          <li>About us</li>
+          <li>Contact us</li>
+          <li>Blog</li>
+          <li>Teach on Kitecareers</li>
+          <li>Help and Support</li>
+        </ul>
+         <img src="img/footer/67a4ce91de98d 2.svg" class="footer-bg-img bottom" alt="">
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+        <img src="img/footer/png-clipart-bus-and-ruler-illustration-student-light-educational-technology-learning-element-bulb-text-university 2.svg" class="footer-bg-img top" alt="">
+        <h6 class="fw-text">Legal &amp; Accessibility</h6>
+        <ul class="footer-list bg-text">
+          <li>Accessibility statement</li>
+          <li>Privacy policy</li>
+          <li>Sitemap</li>
+          <li>Terms &amp; Conditions</li>
+        </ul>
+        <img src="img/footer/100-1001965_outstanding-technology-clipart-png-clipartxtras-teaching-and-learning-with-technology-proceedings 1.svg" class="footer-bg-img bottom" alt="">
+      </div>
+     
+
+      <!-- COLUMN 4 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+      
+        <h6 class="fw-text">Download the App</h6>
+        <img src="img/footer/Google 2.svg" class="img-fluid mt-2 ms-5" alt="Google Play">
+         <img src="img/footer/png-transparent-student-higher-education-study-skills-learning-products-people-logo-teacher 2.svg" class="footer-bg-img bottom" alt="">
+      </div>
+      </div>
+
+    </div>
+  
+
+  <!-- COPYRIGHT BAR -->
+  <div class="copyright-bar text-white bg-text py-3 ps-5">
+    © 2025 Kitecareers, Inc.
+  </div>
+</footer>
+
+</body>
+</html>

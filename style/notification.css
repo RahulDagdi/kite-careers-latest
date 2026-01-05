@@ -1,0 +1,31 @@
+.notification-small{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #6E7380;
+}
+
+.bg-purple {
+  background: #F5DCFE
+
+}
+
+
+.icon-box {
+  width: 59px;
+  height: 62px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+
+
+.notification-text {
+  font-size: 1rem;
+  font-weight: 400;
+   color: #6E7380;
+
+}
+.notification-top{
+  font-weight: 700;
+  font-size: 0.95rem;
+}

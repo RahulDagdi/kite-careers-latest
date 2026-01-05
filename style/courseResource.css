@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+ background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
+}
+
+/* Main Wrapper */
+.course-resources-wrapper {
+  padding-top: 20px;
+
+}
+
+/* Header */
+.course-header {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.back-arrow {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.course-header h5 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Lecture List */
+.lecture-list {
+  max-width: 100%;
+}
+
+.lecture-item {
+  margin-bottom: 1rem;
+}
+
+.lecture-item h6 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 4px;
+}
+
+.lecture-item p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(110, 115, 128, 1);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .lecture-item p {
+    font-size: 11.5px;
+  }
+}

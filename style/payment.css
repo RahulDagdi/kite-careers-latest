@@ -1,0 +1,33 @@
+    .success-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+ 
+    .success-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #363942;
+    }
+    .success-text {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #363942;
+      max-width: 343px;
+    }
+    .btn-success-custom {
+      background-color: #7E00A7;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 10px;
+      color: white;
+      font-weight: 700;
+      font-size: 1.1rem;
+      width: 100%;
+      max-width: 472px;
+    }
+    .btn-success-custom:hover {
+      background-color: #7E00A7;
+    }
