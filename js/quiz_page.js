@@ -93,5 +93,5 @@ function finishQuiz() {
   console.log("User Answers:", userAnswers);
 
   // Optional redirect
-  // window.location.href = "result.html";
+  window.location.href = "result.html";
 }

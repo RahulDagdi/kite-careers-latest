@@ -11,6 +11,20 @@ body {
   color: #7E00A7 !important;
 }
 
+.image_svg{
+  width: 21px;
+  height: 21px;
+  margin-right: 5px;
+}
+
+.arrow img {
+  font-weight: 400;
+  width: 9px;
+  height: 18px;
+  margin: 0 20px 0 0;
+ border: 2px;
+} 
+
 .Certificate_btn {
   position: relative;
   right: 50px;
@@ -32,8 +46,19 @@ body {
 
 /* Summary Card */
 .summary-card {
-  border-radius: 18px;
+  border-radius: 10px;
+  position: relative;
+  right: 75px;
+  width: 384px;
+
+
 }
+
+.summary-card-inner {
+  border-radius: 10px;
+
+}
+
 
 .Quiz_Answer_Key {
   font-weight: 700;
@@ -64,6 +89,9 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  padding-top:x;
+  position: relative;
+  top:10px;
 }
 
 .trophy-icon {
@@ -73,29 +101,59 @@ body {
 
 /* Score Box */
 .score-box {
-  border-radius: 14px;
+  border-radius: 10px;
+  width: 340px;  
+  padding: 5px 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: relative;
+  right: 14px;
 }
 
-/* Stats rows */
-.stat-row {
+.your-score{
+  height: 124px;
+  width: 353px;
   display: flex;
   justify-content: space-between;
   background: rgba(255, 255, 255);
   color: black;
-  padding: 10px 14px;
-  border-radius: 8px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+/* Stat rows */
+.stat-row  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background: rgba(255, 255, 255);
+  color: black;
+  padding: 10px 20px;
+   border-radius: 10px;
+  width: 353px;
+  height: 58px;
   margin-bottom: 8px;
 }
 
+.chapter_btn_div{
+  width: 384px;
 
+}
 
 .chapter_btn {
+  margin-top: 0;
+    border-radius: 10px;
   line-height: 100%;
   padding: 20px;
   size: 15px;
   margin-top: 20px;
   background: #7E00A7;
-  border-radius: 18px;
+  
+     position: relative;
+    right: 75px;
 }
 
 .chapter_btn:hover {
@@ -108,11 +166,13 @@ body {
   border-radius: 14px;
   border: 1px solid #ddd;
   background: #FFFFFF;
+  position: relative;
+  left: 80px;
 }
 
 
 
-.questions_number_div .questions_number {
+.questions_number_div , .questions_number {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
@@ -133,11 +193,11 @@ body {
 }
 
 .border-success-left {
-  border-left: 6px solid #2dbf64;
+  /* border-left: 6px solid #2dbf64; */
 }
 
 .border-danger-left {
-  border-left: 6px solid #e55353;
+  /* border-left: 6px solid #e55353; */
 }
 
 .wrong {
@@ -157,9 +217,10 @@ body {
   padding: 12px;
   margin-bottom: 8px;
   position: relative;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: start;
+  height: 64px;
 
 }
 
@@ -225,17 +286,21 @@ body {
   cursor: pointer;
   font-weight: 600;
   padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+
 
   background-color: #fff;
-  margin-right: 200px;
+  margin-right: 100px;
   border-radius: 10px;
   width: 100%;
 
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
+
+  position: relative;
+  left: 80px;
 }
 
 
@@ -251,6 +316,8 @@ body {
   align-items: flex-start;
   /* left aligned */
   padding-top: 30px;
+  position: relative;
+  left: 80px;
 }
 
 .continue-section p {
@@ -280,11 +347,12 @@ body {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  /* padding-top:40px; */
+  margin-top:40px;
   font-size: 14px;
   border-radius: 6px;
   background: #7E00A7;
   width: 100%;
+  height: 42px;
   margin-right: 200px;
   border-radius: 10px;
   font-size: 13px;
@@ -380,18 +448,19 @@ body {
 
   /* Chapter button */
   .chapter_btn {
+    margin-top: 0;
+    border-radius: 10px;
     padding: 14px;
     font-size: 14px;
   }
 
+  
   /* Question card */
   .question-card {
     padding: 16px !important;
   }
 
-  .questions_number {
-    font-size: 16px;
-  }
+  
 
   ._question {
     left: 0;

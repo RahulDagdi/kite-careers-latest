@@ -1,0 +1,134 @@
+/* ================= RESPONSIVE OVERRIDES ================= */
+/* Ye CSS pahle wali responsive ko override karegi */
+
+/* ---------- DESKTOP FIX ---------- */
+@media (max-width: 1400px) {
+  .summary-card,
+  .chapter_btn,
+  .question-card,
+  .details,
+  .continue-section {
+    left: 0 !important;
+    right: 0 !important;
+  }
+}
+
+/* ---------- LAPTOP / TABLET ---------- */
+@media (max-width: 1200px) {
+  .summary-card,
+  .chapter_btn_div,
+  .score-box,
+  .your-score,
+  .stat-row {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .chapter_btn {
+    right: 0 !important;
+  }
+
+  .question-card,
+  .details,
+  .continue-section {
+    left: 0 !important;
+  }
+}
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+  .Certificate_btn {
+    right: 0 !important;
+  }
+
+  .summary-card {
+    margin: 0 auto 20px auto !important;
+  }
+
+  .score-box {
+    right: 0 !important;
+    padding: 10px 20px !important;
+  }
+
+  ._question {
+    left: 0 !important;
+  }
+
+  .details {
+    margin-right: 0 !important;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 576px) {
+
+  /* Containers */
+  .container,
+  .container-fluid {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Top Bar */
+  .Certificate_btn {
+    width: 100% !important;
+    height: auto !important;
+    padding: 10px !important;
+  }
+
+  .Certificate_btn span {
+    font-size: 14px !important;
+  }
+
+  /* Headings */
+  .Quiz_Answer_Key {
+    padding: 16px !important;
+    font-size: 16px !important;
+  }
+
+  .Quiz_Answer_Key small {
+    font-size: 14px !important;
+    top: 0 !important;
+  }
+
+  /* Cards */
+  .summary-card,
+  .chapter_btn_div,
+  .question-card {
+    width: 100% !important;
+  }
+
+  .question-card {
+    padding: 16px !important;
+  }
+
+  /* Options */
+  .option {
+    padding: 10px !important;
+    flex-wrap: wrap !important;
+  }
+
+  .circle {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 14px !important;
+  }
+
+  /* Details */
+  .details {
+    padding: 14px !important;
+    margin-right: 0 !important;
+    left: 0 !important;
+  }
+
+  /* Continue Section */
+  .continue-section {
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .continue-section .btn {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
