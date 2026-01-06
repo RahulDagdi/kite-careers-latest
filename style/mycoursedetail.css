@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(135deg, #f5dcfe, #ffffff);
+  margin: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
   font-family: "Inter", sans-serif;
 }
 

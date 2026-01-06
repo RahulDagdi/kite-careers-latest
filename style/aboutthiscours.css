@@ -9,7 +9,9 @@ body {
  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
 }
 
-
+.course-section{
+  padding-bottom: 8rem;
+}
 .about-content p {
   font-size: 0.8125 rem;
   font-weight: 400;

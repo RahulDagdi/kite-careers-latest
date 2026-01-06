@@ -3,8 +3,8 @@
   font-size: 1rem;
 }
 .invite-wrapper {
-  overflow: hidden;
   background: #fff;
+  margin-bottom: 14rem;
 }
 
 .invite-text {
@@ -82,9 +82,9 @@
 }
 
 .bg-vector {
-  position:relative;
-  bottom: 308px;
-  right: 0px;
+  position:absolute;
+  bottom: -22%;
+  left: 0;
   width: 100%;
   z-index: 0;
   max-height: 464px;
