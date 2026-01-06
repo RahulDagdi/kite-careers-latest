@@ -10,7 +10,7 @@
 
   --border-color: #454C63;
 
-  --font: 'Istok Web', sans-serif;
+  --font: 'Istok Web', sans-serif;:
 
   --theme-light: #DBC0E5;
 
@@ -216,30 +216,6 @@
 
 
 
-/* @media (min-width: 1200px) {
-
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-
-    max-width: 1240px;
-
-  }
-
-}
-
-
-
-
-
-@media (min-width: 1400px) {
-
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-
-    max-width: 1350px;
-
-  }
-
-} */
-
 
 
 
@@ -249,34 +225,6 @@
 
 
 
-
-/* .left-section {
-
-            padding: 60px;
-
-        } */
-
-
-
-/* .left-section h2 {
-
-            font-weight: 700;
-
-            font-size: 32px;
-
-        }
-
-
-
-        .left-section p {
-
-            width: 70%;
-
-            color: #6d6d6d;
-
-            margin-top: 10px;
-
-        } */
 
 
 
@@ -1383,68 +1331,33 @@
   z-index: 10000;
 
   border-radius: 50%;
-
   font-weight: 600;
-
-
-
-  height: 30px;
-
+    height: 30px;
   width: 30px;
-
   background: #ffffff;
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 
 
-
-  /* background: #FFFFFF;
-
-color: var(--title-color);
-
-height: 50px;
-
-width: 50px;
-
-border-radius: 50%; */
-
 }
 
-
-
-
-
 .progress {
-
   height: 9px;
-
   color: #F9A60C;
-
-
-
   --bs-progress-bar-bg: #F9A60C;
 
 }
 
-
-
-
-
 /* ----------------------------------------------- */
 
 
-
-
-
 .gender-box {
-
+  margin: 10px;
   background: #F9FAFB;
-
   border-radius: 5px;
+  width: 224px;
+  height: 59px;
 
 }
 
@@ -1472,25 +1385,42 @@ border-radius: 50%; */
 
 }
 
+.card-about{
+ width: 912px;
+  height: 174px;
+  border: 1px solid #E0E0E0;
+  padding:20px 20px ;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250);
+
+}
+
+.course-card{
+  font: 'Poppins';
+  font-weight: 400;
+ width: 270px;
+  height: 538px;
+}
+
+.my-course-card{
+ width: 912px;
+  height: 392px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250);
+}
+
+
 
 
 .gender-content {
 
-  font-family: var(--font);
-
+  font: 'Poppins';
   font-weight: 400;
-
-  font-style: Regular;
-
   font-size: 13px;
-
-  line-height: 22px;
-
+  line-height: 21px;
   letter-spacing: 0%;
-
-  vertical-align: middle;
-
   color: #6E7380;
+ 
 
 
 

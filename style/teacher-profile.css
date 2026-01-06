@@ -1,0 +1,165 @@
+
+/* ================= ROOT ================= */
+:root {
+  --primary-color: #7E00A7;
+  --light-color: #FCF5FF;
+  --title-color: #000000;
+  --text-color: #6E7380;
+  --border-color: #E0E0E0;
+  --font: 'Poppins', sans-serif;
+}
+
+/* ================= COMMON ================= */
+body {
+  font-family: var(--font);
+  background: linear-gradient(to bottom, #ffffff, #f4d6ff);
+
+}
+
+/* ================= NAVBAR ================= */
+.profile-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--title-color);
+  white-space: nowrap;
+}
+
+/* ================= BUTTON ================= */
+.btn-purple {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* ================= LEFT PROFILE CARD ================= */
+.course-card {
+  width: 270px;
+  border-radius: 10px;
+  background: #fff;
+  
+}
+
+.gender-box {
+  background: #F9FAFB;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 8px auto;
+}
+
+.gender-text {
+  font-size: 14px;
+  color: #000;
+}
+
+.gender-content {
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+/* ================= ABOUT ================= */
+.card-about {
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.25);
+}
+
+/* ================= MY COURSES ================= */
+.my-course-card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.25);
+}
+
+.course-box {
+  background: radial-gradient(circle, #ffffff 0%, #F5DCFE 100%);
+  border-radius: 10px;
+}
+
+.course-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+.name-text {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.number-text {
+  font-size: 11px;
+  color: #363942;
+}
+
+.rupee-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+/* ================= TEXT ================= */
+.exploring-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #363942;
+}
+
+.popular-text {
+  font-size: 15px;
+  color: #363942;
+}
+
+/* ================= FOOTER ================= */
+.footer-section {
+  background: #FCF5FF;
+}
+
+.fw-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bg-text {
+  font-size: 15px;
+  color: var(--title-color);
+}
+
+.copyright-bar {
+  background: var(--primary-color);
+  font-size: 14px;
+  color: #fff;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .course-card,
+  .card-about,
+  .my-course-card {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .profile-name {
+    font-size: 16px;
+  }
+
+  .exploring-text {
+    font-size: 14px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
