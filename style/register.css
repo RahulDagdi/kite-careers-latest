@@ -43,7 +43,7 @@
 }
 
 .btn-outline-purple {
-  border: 2px solid var(--primary-color);
+  /* border: 1px solid var(--primary-color); */
   border-radius: 6px;
   font-weight: 500;
   color: '#000000';
@@ -56,7 +56,7 @@
 }
 
 .btn-outline-purple:hover {
-  background: #7E00A7;
+  background: #454C63;
   color: white;
 }
 
@@ -145,7 +145,7 @@
 /* Form controls */
 .form-control {
   height: 43px;
-  opacity: 1;
+  opacity:0.70;
   border-width: 1px;
   border-radius: 10px;
   border: 1px solid #454C63 !important;
@@ -171,4 +171,9 @@
 /* Misc */
 .bg-round {
   background: var(--primary-color);
+}
+
+
+.address ,.namefull , .email {
+  width: 100%;
 }
