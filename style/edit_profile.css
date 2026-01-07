@@ -113,7 +113,8 @@
   margin: 10px auto 60px;
   max-width: 463px;
   width: 95%;
-  height: 817px;
+  /* height: 817px; */
+  height: auto;
   box-sizing: border-box;
 }
 
