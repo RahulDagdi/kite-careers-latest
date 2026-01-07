@@ -132,3 +132,116 @@
     margin-right: 0 !important;
   }
 }
+
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .down-img {
+    width: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .details {
+    gap: 10px;
+  }
+
+  .down-img {
+    width: 14px;
+  }
+}
+
+
+
+/* =================  ================= */
+
+/* ================= TOP BAR – INDUSTRIAL FIX ================= */
+
+.container-fluid .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* LEFT : Back to course */
+.container-fluid .fw-semibold {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+/* RIGHT : Button + Share */
+.container-fluid .d-flex > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Certificate button – original size preserved */
+.Certificate_btn {
+  position: static !important; /* IMPORTANT */
+  width: 208px;
+  height: 42px;
+  border-radius: 10px;
+  padding: 0;
+}
+
+/* Button text */
+.Certificate_btn span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Share icon */
+.container-fluid img[src*="share"] {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 768px) {
+  .Certificate_btn {
+    width: 180px;
+    height: 40px;
+  }
+
+  .Certificate_btn span {
+    font-size: 14px;
+  }
+
+  .container-fluid img[src*="share"] {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 576px) {
+  .container-fluid .d-flex {
+    flex-direction: row; /* IMPORTANT: row hi rahe */
+    flex-wrap: nowrap;
+  }
+
+  .Certificate_btn {
+    width: 150px;
+    height: 38px;
+  }
+
+  .Certificate_btn span {
+    font-size: 13px;
+  }
+
+  .container-fluid img[src*="share"] {
+    width: 18px;
+    height: 18px;
+  }
+}

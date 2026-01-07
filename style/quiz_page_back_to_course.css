@@ -205,9 +205,36 @@ body {
 }
 
 /* Status Icons */
-.status-icon {
-  width: 22px;
+
+  .status-icon {
+    width: 22px;
   height: 22px;
+}
+  .correct-img {
+    width: 28px;
+  height: 28px;
+  /* margin: 7px 10px 8px 19px;  */
+}
+
+.status-icon-correct {
+  background: #D6F6D2;
+  width: 44px;
+  height: 44px;
+ border-radius: 100% 100% 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-icon-wrong {
+  background: #F9CBCE;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 100% 100% 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Options */
@@ -277,7 +304,16 @@ body {
   border-color: #e55353;
 }
 
+
 /* Details */
+
+.down-img-div{
+  margin-left: auto; /* force right side */
+  display: flex;
+  align-items: center;
+}
+
+
 .details {
   display: flex;
   align-items: center;
@@ -288,20 +324,16 @@ body {
   padding: 20px;
   /* margin-top: 10px; */
   margin-bottom: 20px;
-
-
   background-color: #fff;
   margin-right: 100px;
   border-radius: 10px;
   width: 100%;
-
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
-
   position: relative;
   left: 80px;
 }
+
+
+
 
 
 .details img {
@@ -410,6 +442,7 @@ body {
 
 
 
+
 @media (max-width: 576px) {
 
   /* Container spacing */
@@ -485,6 +518,7 @@ body {
     margin-right: 0;
     padding: 14px;
   }
+  
 
   /* Continue section */
   .continue-section .btn {
