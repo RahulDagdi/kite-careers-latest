@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Register Page</title>
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link  rel="stylesheet" href="style/style.css" ></link>
+    <!-- <link  rel="stylesheet" href="style/style.css" > -->
+    <link rel="stylesheet" href="style/register.css">
     <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
  
 </head>
@@ -84,17 +85,17 @@
 
             <!-- RIGHT MENU -->
             <ul class="navbar-nav  align-items-center gap-1">
-                <li class="nav-item"><a class="nav-link px-0" href="#">Plans and pricing</a></li>
-                <li class="nav-item"><a class="nav-link px-0" href="#">Account</a></li>
+                <!-- <li class="nav-item"><a class="nav-link px-0" href="#">Plans and pricing</a></li>
+                <li class="nav-item"><a class="nav-link px-0" href="#">Account</a></li> -->
                 <li class="nav-item"><a class="nav-link px-0" href="#"><img src="img/icon/shopping-cart-svgrepo-com 1.svg" alt="Cart"  ></a></li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-purple btns  me-2" href="login.html">Log in</a>
+                    <a class="btn btn-purple btn-outline-purple btns  me-2" href="login.html">Log in</a>
                 </li>
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="btn btn-purple btns " href="register.html">Sign up</a>
-                </li>
+                </li> -->
             </ul>
 
         </div>
@@ -113,7 +114,7 @@
                 <p class="content mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr.</p>
             </div>
             <div class="col-md-7 " style="position: relative;left: -10%;">
-            <img src="img/students/New Project.png" alt="students" class=""  height="350px"  >
+            <img class="students" src="img/students/New Project.png" alt="students" class=""  height="350px"  >
                 
                             <!-- <img src="img/students/Vector 6.png" class="img-fluid mt-4" alt="students" height="463px"> -->
             </div>
@@ -140,12 +141,12 @@
                     <div class="form-control d-flex align-items-center mb-3">
                         <img src="img/icon/profile.svg"  height="19px" width="19px" />
 
-                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your name ">
+                        <input type="text" class=" namefull border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your name ">
                     </div>
                     <div class="form-control d-flex align-items-center mb-3">
                         <img src="img/icon/email-box.svg"  height="19px" width="19px" />
 
-                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your mail id">
+                        <input type="text" class=" email border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your mail id">
                     </div>
                   
 
@@ -172,7 +173,7 @@
                        <div class="form-control d-flex align-items-center mb-3">
                         <img src="img/icon/email-box.svg"  height="19px" width="19px" />
 
-                        <input type="text" class="border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your address  (optional)">
+                        <input type="text" class=" address border-0 ms-1 d-flex align-items-center second-input" placeholder="Enter your address  (optional)">
                     </div>
                     
                        <div class="form-control d-flex align-items-center mb-3">
@@ -185,7 +186,10 @@
 
      
                       
-                     <div class="content mb-5">Accept Terms & Conditions</div>
+                     <div class="content mb-5">
+                       <img src="img/icon/Shopicon.svg" alt="check-image" />
+                      Accept Terms & Conditions
+                    </div>
                  </div>
 
                 <button class="btn btn-purple w-100 ">Confirm Register</button>
@@ -198,82 +202,7 @@
 </div>
 
 
-<footer class="footer-section">
-  <div class="container py-5">
-    <div class="row g-4 position-relative">
 
-      <!-- COLUMN 1 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-        <!-- Low opacity image -->
-        <img src="img/footer/260-2608530_spoken-english-clipart 2.svg" class="footer-bg-img top" alt="">
-
-        <img src="img/logo/kite-logo.svg" class="mb-4" alt="Kitecareers">
-
-        <h6 class="fw-text">Contact us</h6>
-
-        <div class="d-flex center align-items-center gap-2 mb-2">
-           <divs class="bg-round p-1 rounded-5 d-inline-block   justify-content-center " >
-            <img src="img/icon/phone.svg" alt="">
-          </divs>
-          <span class="bg-text">+91 75867465784</span> 
-        </div>
-
-        <div class="d-flex center align-items-center gap-2">
-            <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center " >
-            <img src="img/icon/email2.svg" alt="">
-          </div>
-          <span class="bg-text">kitecareers@gmail.com</span>
-        </div>
-        <!-- Low opacity image -->
-        <img src="./images/Outstanding-Characteristic 2.png" class="footer-bg-img bottom" alt="">
-      </div>
-
-      <!-- COLUMN 2 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-           <!-- Low opacity image -->
-        <img src="img/footer/pngtree-online-learning-education-element-png-image_11596785 2.svg" class="footer-bg-img top" alt="">
-        <h6 class="fw-text">About</h6>
-        <ul class="footer-list bg-text">
-          <li>About us</li>
-          <li>Contact us</li>
-          <li>Blog</li>
-          <li>Teach on Kitecareers</li>
-          <li>Help and Support</li>
-        </ul>
-         <img src="img/footer/67a4ce91de98d 2.svg" class="footer-bg-img bottom" alt="">
-      </div>
-
-      <!-- COLUMN 3 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-        <img src="img/footer/png-clipart-bus-and-ruler-illustration-student-light-educational-technology-learning-element-bulb-text-university 2.svg" class="footer-bg-img top" alt="">
-        <h6 class="fw-text">Legal &amp; Accessibility</h6>
-        <ul class="footer-list bg-text">
-          <li>Accessibility statement</li>
-          <li>Privacy policy</li>
-          <li>Sitemap</li>
-          <li>Terms &amp; Conditions</li>
-        </ul>
-        <img src="img/footer/100-1001965_outstanding-technology-clipart-png-clipartxtras-teaching-and-learning-with-technology-proceedings 1.svg" class="footer-bg-img bottom" alt="">
-      </div>
-     
-
-      <!-- COLUMN 4 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-      
-        <h6 class="fw-text">Download the App</h6>
-        <img src="img/footer/Google 2.svg" class="img-fluid mt-2 ms-5" alt="Google Play">
-         <img src="img/footer/png-transparent-student-higher-education-study-skills-learning-products-people-logo-teacher 2.svg" class="footer-bg-img bottom" alt="">
-      </div>
-      </div>
-
-    </div>
-  
-
-  <!-- COPYRIGHT BAR -->
-  <div class="copyright-bar text-white bg-text py-3 ps-5">
-    © 2025 Kitecareers, Inc.
-  </div>
-</footer>
 
 </body>
 </html>

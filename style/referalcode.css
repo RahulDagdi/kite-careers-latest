@@ -104,7 +104,13 @@
     max-width: 100%;
   }
 
-  .bg-vector {
-    bottom: 277px;
+
+}
+@media (max-width: 997px){
+  .bg-vector{
+    bottom: -5%;
+  }
+  .invite-wrapper{
+    margin-bottom: 8rem;
   }
 }
