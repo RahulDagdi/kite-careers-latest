@@ -13,6 +13,8 @@
   background: #000;
   font-size: 0.9rem;
   font-family: var(--font);
+  text-align: center;
+  padding: 5px 10px;
 }
 
 .top-limited {
@@ -22,6 +24,12 @@
 /* Buttons */
 .btns {
   padding: 7px 36px;
+  font-size: 0.9rem;
+}
+
+.btn-change-profile{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .btn-purple {
@@ -37,7 +45,8 @@
   border-radius: 6px;
   font-weight: 500;
   font-family: var(--font);
-  width: 248px;
+  width: 100%;
+  max-width: 248px;
   height: 38px;
   display: flex;
   justify-content: center;
@@ -55,18 +64,34 @@
   font-weight: 400;
   font-size: 0.9rem;
   color: var(--title-color);
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 /* ================= SEARCH BAR (ONLY DOUBLE BORDER) ================= */
 .search-bar {
   position: relative;
-  width: 410px;
+  width: 100%;
+  /* max-width: 410px; */
   height: 38px;
-  min-width: 35% !important;
   border-radius: 10px;
   border: 2px double #d6d6d6 !important;
   font-family: var(--font);
+  margin: 10px auto;
+}
+
+.search-bar-top {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.search-bar-second {
+  padding: 0 10px;
+  width: 100%;
+  
+  height: 38px;
+  margin-bottom: 40px;
 }
 
 .search-bar input {
@@ -84,11 +109,12 @@
 .auth-box {
   background: #FCF5FF;
   border-radius: 10px;
-  padding: 50px 20px;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  height: 564px;
-  width: 463px;
+  padding: 30px 20px;
+  margin: 10px auto 60px;
+  max-width: 463px;
+  width: 95%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .content {
@@ -96,7 +122,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
-  color: #959BAC;
+  color: var(--text-color);
 }
 
 /* ================= PROFILE INPUTS (NO BORDER – ONLY SHADOW) ================= */
@@ -108,6 +134,7 @@
   font-family: var(--font);
   font-size: 15px;
   color: var(--text-color);
+  margin-bottom: 15px;
 }
 
 .form-control:focus,
@@ -121,13 +148,26 @@
   font-family: var(--font);
   font-weight: 700;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 /* Course */
 .course-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: var(--font);
   font-size: 14px;
   color: var(--title-color);
+  font-weight: 400;
+}
+
+.course-title-1 {
+  font-family: var(--font);
+  font-size: 14px;
+  color: var(--title-color);
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .course-content {
@@ -135,11 +175,14 @@
   font-size: 12px;
   line-height: 20px;
   color: var(--text-color);
+  font-weight: 400;
 }
 
 .course-box {
   background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5DCFE 100%);
   border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 /* Common */
@@ -152,6 +195,7 @@
   background-color: #FCF5FF;
   position: relative;
   overflow: hidden;
+  padding: 40px 15px;
 }
 
 .footer-col {
@@ -190,19 +234,110 @@
 
 .footer-list {
   margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
 }
 
 .footer-list li {
   font-size: 0.95rem;
+  margin-bottom: 5px;
 }
 
 .center {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Copyright */
 .copyright-bar {
   background-color: #7E00A7;
   font-size: 0.9rem;
+  text-align: center;
+  padding: 8px 10px;
+  color: #fff;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* Tablets */
+@media (max-width: 991px) {
+  .search-bar,
+  .search-bar-top,
+  .search-bar-second {
+    max-width: 90%;
+  }
+
+  .auth-box {
+    width: 80%;
+    padding: 25px 15px;
+  }
+
+  .btn-outline-purple {
+    width: 90%;
+  }
+
+  .nav-link {
+    margin-right: 10px;
+    font-size: 0.85rem;
+  }
+
+  .course-box {
+    padding: 12px;
+  }
+
+  .fw-text {
+    font-size: 1.2rem;
+  }
+
+  .bg-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .search-bar,
+  .search-bar-top,
+  .search-bar-second {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .auth-box {
+    width: 95%;
+    padding: 20px 15px;
+    height: auto;
+  }
+
+  .btns {
+    padding: 7px 20px;
+    font-size: 0.85rem;
+  }
+
+  .nav-link {
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+
+  .course-title,
+  .course-title-1,
+  .course-content {
+    font-size: 13px;
+  }
+
+  .course-box {
+    padding: 10px;
+  }
+
+  .fw-text {
+    font-size: 1rem;
+  }
+
+  .bg-text {
+    font-size: 13px;
+    line-height: 24px;
+  }
 }
