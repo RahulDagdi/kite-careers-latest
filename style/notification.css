@@ -1,133 +1,4 @@
-:root {
-  --primary-color: #7E00A7;
-  --light-color: #FCF5FF;
-  --title-color: #000000;
-  --text-color: #959BAC;
-  --border-color: #454C63;
-  --font: 'Istok Web', sans-serif;
-  --theme-light: #DBC0E5;
-}
-body{
-   background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
-}
 
-.search-bar {
-  position: relative;
-  
-  height: 50px;
-  min-width: 35% !important;
-  border-radius: 6px;
-  border: 1px solid #959BAC !important;
-  color: #9E9D9D !important;
-  font-family: var(--font);
-  font-size: 0.9rem;
-  box-shadow: 0px 1px 4px #00000040;
-}
-.search-bar input {
-  border: none;
-  font-family: var(--font);
-  width: 100%;
-}
-.second-input:focus-visible {
-  outline: none !important;
-}
-
-/* ---------- TEXT & COMMON ---------- */
-
-.main-course-text {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0%;
-  color: var(--text-color);
-}
-
-.my-course-title {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 22px;
-  letter-spacing: 0%;
-  color: #363942;
-}
-
-.name-text {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0%;
-  color: #6E7380;
-}
-
-.course-title {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: var(--title-color);
-}
-
-
-
-/* ---------- COURSE BOX ---------- */
-
-.course-box {
-  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5DCFE 100%);
-  border-radius: 10px;
-}
-
-/* ---------- PROGRESS BAR ---------- */
-
-.progress {
-  height: 9px;
-  color: #F9A60C;
-  --bs-progress-bar-bg: #F9A60C;
-}
-
-/* ---------- FOOTER ---------- */
-
-.footer-section {
-  background: #000000;
-}
-
-.footer-list {
-  list-style: disc;
-}
-
-.footer-col {
-  overflow: hidden;
-}
-
-.footer-bg-img {
-  position: absolute;
-  opacity: 0.15;
-}
-
-.fw-text {
-  font-family: var(--font);
-  font-weight: 700;
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
-.bg-text {
-  color: #FFFFFF;
-  font-family: var(--font);
-  font-size: 14px;
-}
-
-.bg {
-  background: var(--primary-color);
-}
-
-.copyright-bar {
-  font-family: var(--font);
-  font-size: 14px;
-}
 
 
 .notification-small{
@@ -137,7 +8,7 @@ body{
 }
 
 .bg-purple {
-  background: #F5DCFE
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5DCFE 100%);
 
 }
 
@@ -159,5 +30,5 @@ body{
 }
 .notification-top{
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.125rem;
 }

@@ -1,0 +1,153 @@
+:root {
+  --primary-color: #7E00A7;
+  --light-color: #FCF5FF;
+  --title-color: #000000;
+  --text-color: #959BAC;
+  --border-color: #454C63;
+  --font: 'Istok Web', sans-serif;
+  --theme-light: #DBC0E5;
+}
+body{
+   background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #D9D9D9;
+}
+.search-bar {
+  position: relative;
+  
+  height: 50px;
+  border-radius: 10px;
+  color: #9D9EA2 !important;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 1.063rem;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.search-bar input {
+  border: none;
+  font-family: var(--font);
+  width: 100%;
+}
+.second-input:focus-visible {
+  outline: none !important;
+}
+
+/* ---------- TEXT & COMMON ---------- */
+
+.course-box {
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5DCFE 100%);
+  border-radius: 10px;
+}
+
+.main-course-text {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: var(--text-color);
+}
+
+.my-course-title {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #363942;
+}
+
+.name-text {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #6E7380;
+}
+.name-textb {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #6E7380;
+  margin-top: 0.5rem;
+}
+
+.course-title {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--title-color);
+}
+
+
+.progress {
+  height: 9px;
+  margin-top: 0.7rem;
+}
+.progress-bar {
+  background: #7e00a7;
+}
+    .progress-bar {
+      background: #7e00a7 !important;
+      width: 40%;
+      height: 6px;
+      border-radius: 19px;
+    }
+
+    .progress {
+      background: #ffffff;
+      height: 6px;
+      border-radius: 19px;
+    }
+
+/* ---------- FOOTER ---------- */
+
+/* .footer-section {
+  background: #000000;
+}
+
+.footer-list {
+  list-style: disc;
+}
+
+.footer-col {
+  overflow: hidden;
+}
+
+.footer-bg-img {
+  position: absolute;
+  opacity: 0.15;
+}
+
+.fw-text {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.bg-text {
+  color: #FFFFFF;
+  font-family: var(--font);
+  font-size: 14px;
+}
+
+.bg {
+  background: var(--primary-color);
+}
+
+.copyright-bar {
+  font-family: var(--font);
+  font-size: 14px;
+} */

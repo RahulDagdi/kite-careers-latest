@@ -36,7 +36,6 @@ body {
   position: relative;
   width: 410px;
   height: 38px;
-  min-width: 35% !important;
   border-radius: 6px;
   border: 1px solid #959BAC !important;
   color: #9E9D9D !important;
@@ -108,13 +107,14 @@ body {
     /* COURSE CARD */
     .course-card {
       border-radius: 6px;
-      padding: 12px;
       display: flex; 
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); 
       background-color: rgba(251, 251, 251, 1);
     }
 
     .course-img {
+      width: 93px;
+      height: 97px;
       object-fit: cover;
       border-radius: 6px;
     }
@@ -126,7 +126,7 @@ body {
     }
 
     .course-desc {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: #6E7380;
       font-weight: 400;
       
@@ -134,10 +134,11 @@ body {
 
     .rating {
       color: #f5a623;
+    
     }
     .text-mute{
        font-weight: 400;
-       font-size: 0.75rem;
+       font-size: 0.6rem;
        color: #6E7380;
     }
 
@@ -169,14 +170,14 @@ body {
 
     .summary-title {
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 0.875rem;
       
     }
 
     .summary-row {
       display: flex;
       justify-content: space-between;
-      font-size: 0.9rem;
+      font-size: 0.875rem;
       font-weight: 400;
       color: #363942;
       
@@ -195,12 +196,12 @@ body {
     .checkout-btn {
       background: #7E00A7;
       color: #fff;
-      padding: 14px;
+      padding: 15px;
       border-radius: 10px;
       border: none;
       width: 100%;
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 0.875rem;
     }
 
     .checkout-btn:hover {
@@ -216,7 +217,7 @@ body {
 } */
 
 .coupon-label {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     font-weight: 400;
     color: #363942;
     white-space: nowrap;
@@ -234,7 +235,7 @@ body {
     flex: 1;
     border: none;
     outline: none;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 400;
     color: #C3C3C3;
     background: #FBFBFB
@@ -247,16 +248,11 @@ body {
     border: none;
     color: #7E00A7;
     font-weight: 700;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     cursor: pointer;
     white-space: nowrap;
 }
 
 .apply-wrapper button:hover {
     text-decoration: underline;
-}
-@media (min-width:992px) {
-    .ms-lg{
-    margin-left: 10rem;
-}
 }
