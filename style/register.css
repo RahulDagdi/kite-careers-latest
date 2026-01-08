@@ -17,6 +17,16 @@
   background: #000;
   font-size: 0.9rem;
   font-family: var(--font);
+   width: 100%;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+
 }
 
 /* Buttons */
@@ -60,6 +70,7 @@
   color: white;
 }
 
+
 /* Search bar */
 .search-bar {
   position: relative;
@@ -76,6 +87,8 @@
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
+   margin-right: 400px;
+  margin-left: 120px;
 }
 
 .search-bar input {
@@ -97,14 +110,74 @@
   margin-right: 20px;
 }
 
+
+/* ================= LEFT SECTION ================= */
+
+/* Parent ko relative */
+.left-section1 {
+  position: relative;
+}
+
+/* IMAGE normal rahe */
+.left-section1 .col-md-9 {
+  position: relative;
+  z-index: 1;
+}
+
+/* TEXT image ke upar overlap kare */
+.left-section1 .col-md-5 {
+  position: absolute;
+  top: 120px;        /* yahan adjust kar sakte ho */
+  left: 0;
+  z-index: 2;
+}
+
+
+
+.title1 {
+  width: 293px;
+  height: 79px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  position: relative;
+  left: 30px;
+  top: -70px;
+  color: white;
+}
+
+.content1 {
+    width: 293px;
+  height: 79px;
+    position: relative;
+  left: 30px;
+  top: -100px;
+  font-size: 16px;
+  color: white;
+}
+
+.students1 {
+
+  width: 920px;
+  height: 670px;
+  position: relative;
+  top:-30px ;
+  /* right: 50px; */
+
+}
+
+
+
+
+
 /* Auth box */
 .auth-box {
   background: #FCF5FF;
   border-radius: 10px;
   padding: 50px 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 60px;
-  height: 564px;
+  height: 785px;
   width: 463px;
 }
 
