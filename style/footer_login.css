@@ -1,0 +1,158 @@
+/* footer section-14 */
+
+/* FOOTER BACKGROUND */
+
+.footer-section {
+
+  background-color: #FCF5FF;
+
+  position: relative;
+
+  overflow: hidden;
+  margin-top: -50px;
+
+}
+
+
+
+/* COLUMN */
+
+.footer-col {
+
+  position: relative;
+
+  z-index: 2;
+
+}
+
+
+
+/* LOW OPACITY IMAGES */
+
+.footer-bg-img {
+
+  position: absolute;
+
+  z-index: 1;
+
+}
+
+
+
+
+
+.footer-bg-img.top {
+  top: -40px;
+
+  right: -17px;
+}
+
+.fw-text{
+  font-weight:700 ;
+  font-size: 1.4rem;
+
+  color: var(--title-color);
+
+  font-family: var(--font);
+
+  line-height: 100%;
+
+
+
+}
+.bg-text{
+  /* font-size: 0.9rem; */
+  /* font-weight: 400; */
+
+  font-family: var(--font);
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+
+line-height: 31px;
+letter-spacing: 0%;
+color: var(--title-color);
+
+
+
+}
+
+
+
+.footer-bg-img.bottom {
+ right: 65px;
+ bottom: -50px;
+}
+
+/* LIST */
+
+.footer-list {
+  /* list-style: none;
+  padding: 0; */
+  margin-top: 10px;
+}
+
+
+
+.footer-list li {
+  /* margin-bottom: 8px; */
+  font-size: 0.95rem;
+
+}
+
+
+
+/* ICON BG */
+
+.bg {
+
+  background-color: #7E00A7;
+
+}
+
+
+
+/* COPYRIGHT */
+
+.copyright-bar {
+
+  background-color: #7E00A7;
+
+  font-size: 0.9rem;
+
+}
+
+
+
+/* RESPONSIVE FIXES */
+
+@media (max-width: 768px) {
+
+  .footer-bg-img {
+    /* display: none; cleaner on mobile */
+  }
+
+
+
+  .footer-list{
+    list-style: none;
+  }
+  .footer-section {
+
+    text-align: center;
+
+  }
+
+
+
+  .footer-col span {
+    justify-content: center;
+  }
+  .center{
+    display: flex;
+
+    justify-content: center;
+
+  }
+
+}

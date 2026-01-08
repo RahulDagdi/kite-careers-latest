@@ -12,6 +12,18 @@ body {
   background: radial-gradient(circle at bottom, #f3d9ff, #ffffff 65%);
 }
 
+body{
+  background: linear-gradient(to bottom, #ffffff, lab(88.24% 18.11 -16.51));
+
+}
+
+
+.share-logo img{
+ width :36px; 
+  height:39px; 
+}
+
+
 /* ================= TROPHY ================= */
 .trophy {
   width: 337px;
@@ -85,6 +97,7 @@ body {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
+  margin-top: 70px;
   margin-bottom:70px;
 
   border: none;
