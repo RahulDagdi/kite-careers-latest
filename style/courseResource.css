@@ -1,17 +1,21 @@
 body {
   margin: 0;
  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(245, 220, 254, 1));
+  font-family: 'Istok Web', sans-serif;
 }
+
+   
+
 
 /* Main Wrapper */
 .course-resources-wrapper {
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
 }
 
 /* Header */
 .course-header {
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -31,20 +35,20 @@ body {
 }
 
 .lecture-item {
-  margin-bottom: 1rem;
+  margin-bottom: 1.7rem;
 }
 
 .lecture-item h6 {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: 700;
-  color: rgba(0, 0, 0, 1);
+  color:#000000;
   margin-bottom: 4px;
 }
 
 .lecture-item p {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: 700;
-  color: rgba(110, 115, 128, 1);
+  color: #6E7380;
   line-height: 1.6;
   margin: 0;
 }

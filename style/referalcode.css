@@ -1,3 +1,6 @@
+body{
+  font-family: 'Istok Web', sans-serif;
+}
 .invite-top{
   font-weight: 700;
   font-size: 1rem;
@@ -8,15 +11,15 @@
 }
 
 .invite-text {
-  font-size: 1.26rem;
+  font-size: 1.313rem;
   font-weight: 700;
   color: #6E7380;
   max-width: 431px;
-  line-height: 1.6;
+  line-height: 1.52;
 }
 
 .highlight {
-  color: #7a00cc;
+  color: #7E00A7;
 }
 
 .refer-card {
@@ -83,7 +86,7 @@
 
 .bg-vector {
   position:absolute;
-  bottom: -22%;
+  bottom: -27%;
   left: 0;
   width: 100%;
   z-index: 0;

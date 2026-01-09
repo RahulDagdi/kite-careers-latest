@@ -1,6 +1,6 @@
 /* GLOBAL FONT */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Istok Web', sans-serif;
 }
 
 :root {
@@ -37,7 +37,6 @@ body {
   position: relative;
   width: 410px;
   height: 38px;
-  min-width: 35% !important;
   border-radius: 6px;
   border: 1px solid #959BAC !important;
   color: #9E9D9D !important;
@@ -198,22 +197,22 @@ body {
 } */
 
 /* NAV LINKS */
-.nav-link {
+/* .nav-link {
     font-weight: 400;
     font-size: 0.9rem;
     color: #000000;
     margin-right: 20px;
-}
+} */
 
 /* .nav-link:hover {
     color: #6C2FDB !important;
 } */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .hero-title {
     font-size: 1.8rem;
   }
-}   
+}    */
 
 /* Hero section background same as navbar */
 .hero-section {
@@ -225,29 +224,35 @@ body {
 
 /* Left hero text */
 .hero-title {
-  font-size: 2.6rem;
+  font-size: 2.563rem;
   font-weight: 400;
   color: #000;
   max-width: 455px;
 }
-
-
-
-
-.text-purple {
-  color: #7E00A7;
-  font-weight: 700;
+.career-wrap {
+  position: relative;
+  display: inline-block;
 }
 
+.career-img {
+  position: absolute;
+  left: 13%;
+  bottom: -71%; /* adjust as needed */
+  /* width: 120px;  */
+}
+
+
 /* Button */
-.btn-purples {
+.start-btn {
   background-color: #7E00A7;
   border: none;
   color: #fff;
-  padding: 11px 35px;
   border-radius: 10px;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
+  width: 206px;
+  margin-top: 5rem;
+  height: 50px;
  
  
 }
@@ -256,6 +261,13 @@ body {
   background-color:  #7E00A7;
   color: #fff;
 }
+
+.text-purple {
+  color: #7E00A7;
+  font-weight: 700;
+}
+
+
 
 /* Stats below button */
 .stat-text {
@@ -324,15 +336,20 @@ body {
 
 /* Left ellipse (on left circle) */
 .ellipse-left {
-    width: 239px;
-    height: 130px;
-    background: linear-gradient(90deg, #7E00A7 0%, #FFFFFF 100%);
-    opacity: 0.9;
-    left: -120px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 71px ;
-    z-index: 10;
+  width: 239px;
+  height: 130px;
+
+  left: -21%;
+  top: 43%;
+  transform: translateY(-50%);
+  border-radius: 71px ;
+  z-index: 10;
+}
+.ellipse-mask{
+  background: linear-gradient(90deg, #7E00A7,#FFFFFFFF );
+  mask-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100% );
+
+
 }
 
 
@@ -343,6 +360,7 @@ body {
     height: 130px;
     left: 220px;
     background: linear-gradient(90deg,#FFFFFFFF, #7E00A7 );
+    
     opacity: 0.9;
     top: 350px;
     transform: translateY(-50%);
