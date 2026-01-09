@@ -1,4 +1,10 @@
-
+.notification-top{
+  font-weight: 700;
+  font-size: 0.938rem;
+}
+.notification-item{
+  padding: 1.25rem 0rem;
+}
 
 
 .notification-small{
@@ -11,7 +17,9 @@
   background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5DCFE 100%);
 
 }
-
+.col{
+  padding-left: 1.5rem;
+}
 
 .icon-box {
   width: 59px;
@@ -27,8 +35,4 @@
   font-weight: 400;
    color: #6E7380;
 
-}
-.notification-top{
-  font-weight: 700;
-  font-size: 1.125rem;
 }
