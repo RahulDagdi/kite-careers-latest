@@ -8,8 +8,9 @@
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="style/teacher-profile.css">
+  <link rel="stylesheet" href="style/footer.css">
 
 
   <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
@@ -33,10 +34,10 @@
 
   <!--  MAIN NAVBAR -->
   <nav class="navbar navbar-expand-lg   " style="margin-top: 4rem;">
-    <div class="container px-0">
+    <div class="container-fluid">
 
       <!-- LOGO -->
-      <a class="navbar-brand profile-name  d-flex align-items-center gap-1" href="#">
+      <a class="navbar-brand profile-name  d-flex align-items-center gap-1" href="index.html">
         <img src="img/Detail/left-arrow.svg" width="15px" height="12px" />
         Teacher Profile
       </a>
@@ -47,23 +48,23 @@
 
 
         <!-- RIGHT MENU -->
-        <ul class="navbar-nav  align-items-center gap-1  ">
-          <li class="nav-item"><a class="nav-link px-0 main-course-text" href="#">Home</a></li>
+        <!-- <ul class="navbar-nav  align-items-center gap-5  ">
+          <li class="nav-item"><a class="nav-link px-0 main-course-text" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link px-0 main-course-text" href="course-list.html">Courses</a></li>
           <li class="nav-item"><a class="nav-link px-0 main-course-text" href="#">Teachers</a></li>
           <li class="nav-item"><a class="nav-link px-0 main-course-text" href="#">Contact</a></li>
 
-        </ul>
+        </ul> -->
 
       </div>
     </div>
   </nav>
 
-  <div class="container mb-5 ">
-    <div class="row min-vh-100 d-flex pt-4 g-5  ">
+  <div class="container-fluid mb-5 ">
+    <div class="row d-flex pt-4 ">
 
       <!-- LEFT SECTION -->
-      <div class="col-lg-4 left-section pt-5   row" style="height: 100%;">
+      <div class="col-lg-4 left-section pt-5 profile-card  row" style="width:270px; height:538px;">
 
         <div class="card course-card p-2">
           <div class="d-flex justify-content-center my-4">
@@ -72,8 +73,11 @@
           </div>
           <div class="card-body">
             <div class="  align-items-center">
-              <div class="text-center">
-                <div class="exploring-text">
+               <div class="profile-card-name">
+
+              
+              <div class="text-center ">
+                <div class="exploring-text "">
                   Kartik Roy
                 </div>
                 <div class="popular-text mt-1">
@@ -100,6 +104,7 @@
                   <img src="img/icon/yellow-star.svg" width="17px" height="17px" />
                 </span>
               </div>
+ </div>
 
               <div class="gender-box">
                 <div class="gender-text">Gender</div>
@@ -131,14 +136,14 @@
               About me
             </div>
             <div class="gender-content">
-            Lorem Ipsum has been the industry's standard dummy text since the 1500s, when an unknown printer took a galley of type and scrambled it to make type specimen book has survived not five centuries but also the leap into electronic.  Lorem Ipsum has been the industry's standard dummy text since the 1500s, when an unknown printer took a galley of type and scrambled it to make type specimen book has survived not five centuries but also the leap into electronic. has been the industry's standard has been the industry's standard 
+            Lorem Ipsum has been the industry's standard dummy text since the 1500s, when an unknown printer took a galley of type and scrambled it to make type specimen book has survived not five centuries but also the leap into electronic.  Lorem Ipsum has been the industry's standard dummy text since the 1500s, when an unknown printer took a galley of type and scrambled it to make type specimen book has survived not five centuries but also the leap into electronic. has been the industry's standard has been the industry's standard Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cum suscipit laborum praesentium expedita animi eos aperiam, beatae dolor. Voluptatum, natus! Incidunt quae tempora voluptate dicta quis sequi quasi ipsam?
 
             </div>
 
         
 
         </div>
-        <div class="card my-course-card p-2 mt-4">
+        <div class="card my-course-card p-2">
 
           <div class="card-body">
             <div class="d-flex justify-content-between">
@@ -157,9 +162,11 @@
               <div class="col-md-6">
 
                 <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
 
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
+               <a href="mycoursedetail.html">
+                   <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
                     <div>
                       <div class="course-title">
 
@@ -192,6 +199,7 @@
 
                     </div>
                   </div>
+               </a>
 
 
 
@@ -201,9 +209,11 @@
               <div class="col-md-6">
 
                 <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
 
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
+                  <a href="mycoursedetail.html">
+                    <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
                     <div>
                       <div class="course-title">
 
@@ -236,6 +246,54 @@
 
                     </div>
                   </div>
+
+
+                  </a>
+
+
+                </div>
+              </div>
+              <div class="col-md-6">
+
+                <div class="course-box  mt-3 p-2  ">
+
+                  <a href="mycoursedetail.html">
+                    <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
+                    <div>
+                      <div class="course-title">
+
+                        Exploring Beethoven’s Piano Sonatas
+                      </div>
+                      <div class="name-text">Lorem Ipsum has been the industry's</div>
+
+                      <div>
+                        <div class="name-text">
+                          Chetan Singh
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+
+                          <div class="d-flex mt-2 gap-1 ">
+                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
+                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
+                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
+                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
+                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
+                            <div class="number-text">(4.5)</div>
+
+                          </div>
+                          <div class="rupee-text ">
+                            <img src="img/icon/rupee.svg" width="10px" height="10px" />
+                            399.00
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  </a>
 
 
 
@@ -245,9 +303,11 @@
               <div class="col-md-6">
 
                 <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
 
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
+                <a href="mycoursedetail.html">
+                    <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
                     <div>
                       <div class="course-title">
 
@@ -280,6 +340,7 @@
 
                     </div>
                   </div>
+                </a>
 
 
 
@@ -289,9 +350,12 @@
               <div class="col-md-6">
 
                 <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
 
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
+
+                 <a href="mycoursedetail.html">
+                   <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
                     <div>
                       <div class="course-title">
 
@@ -325,6 +389,7 @@
                     </div>
                   </div>
 
+                 </a>
 
 
 
@@ -333,9 +398,12 @@
               <div class="col-md-6">
 
                 <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
 
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
+
+                <a href="mycoursedetail.html">
+                    <div class="d-flex gap-3 ">
+
+                    <img src="img/students/profile-course.png" width="70px" height="76px" style="border-radius: 5px;" />
                     <div>
                       <div class="course-title">
 
@@ -369,50 +437,7 @@
                     </div>
                   </div>
 
-
-
-
-                </div>
-              </div>
-              <div class="col-md-6">
-
-                <div class="course-box  mt-3 p-2  ">
-                  <div class="d-flex gap-3 ">
-
-                    <img src="img/students/profile-course.png" width="50px" height="56px" style="border-radius: 5px;" />
-                    <div>
-                      <div class="course-title">
-
-                        Exploring Beethoven’s Piano Sonatas
-                      </div>
-                      <div class="name-text">Lorem Ipsum has been the industry's</div>
-
-                      <div>
-                        <div class="name-text">
-                          Chetan Singh
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center">
-
-                          <div class="d-flex mt-2 gap-1 ">
-                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
-                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
-                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
-                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
-                            <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
-                            <div class="number-text">(4.5)</div>
-
-                          </div>
-                          <div class="rupee-text ">
-                            <img src="img/icon/rupee.svg" width="10px" height="10px" />
-                            399.00
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-                  </div>
-
+                </a>
 
 
 
@@ -431,6 +456,93 @@
     </div>
   </div>
 
+
+
+<!-- footer section-14 -->
+     <footer class="footer-section">
+  <div class="px-4 py-5">
+    <div class="row g-4 position-relative pt-4">
+
+      <!-- COLUMN 1 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+        <!-- Low opacity image -->
+        <img src="img/common/260-2608530_spoken-english-clipart 2.png"
+          class="footer-bg-img top" alt="" style="top: -32%;right: -4%;">
+
+        <img src="img/kite-icons/common/logo careers 1.svg" class="mb-3" alt="Kitecareers">
+
+        <h6 class="fw-text">Contact us</h6>
+
+        <div class="d-flex center align-items-center gap-2 mb-2">
+          <span class="bg p-1 rounded-circle">
+            <img src="img/kite-icons/Home/phone-call-svgrepo-com 1.png" alt="">
+          </span>
+          <span class="bg-text">+91 75867465784</span> 
+        </div>
+
+        <div class="d-flex center align-items-center gap-2">
+          <span class="bg p-1 rounded-circle">
+            <img src="img/kite-icons/Home/Mask group (2).png" alt="">
+          </span>
+          <span class="bg-text">kitecareers@gmail.com</span>
+        </div>
+        <!-- Low opacity image -->
+        <img src="img/common/Outstanding-Characteristic 2.png"
+             class="footer-bg-img bottom" alt="" style="right: 18%; bottom: -22%;">
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+           <!-- Low opacity image -->
+        <img src="img/kite-icons/Home/pngtree-online-learning-education-element-png-image_11596785 2.png"
+          class="footer-bg-img top" alt="" style="top: -44%; right: 6%;">
+        <h6 class="fw-text">About</h6>
+        <ul class="footer-list bg-text ps-4">
+          <li>About us</li>
+          <li>Contact us</li>
+          <li>Blog</li>
+          <li>Teach on Kitecareers</li>
+          <li>Help and Support</li>
+        </ul>
+         <img src="img/kite-icons/Home/67a4ce91de98d 2.png"
+             class="footer-bg-img bottom" alt=""  style="right: -5%; bottom: -28%;">
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="col-12 col-md-3 position-relative footer-col">
+        <img src="img/kite-icons/Home/png-clipart-bus-and-ruler-illustration-student-light-educational-technology-learning-element-bulb-text-university 2.png" 
+        class="footer-bg-img top" alt=""  style="top: -44%; right: -23%;">
+        <h6 class="fw-text">Legal & Accessibility</h6>
+        <ul class="footer-list bg-text ps-4">
+          <li>Accessibility statement</li>
+          <li>Privacy policy</li>
+          <li>Sitemap</li>
+          <li>Terms & Conditions</li>
+        </ul>
+        <img src="img/kite-icons/Home/100-1001965_outstanding-technology-clipart-png-clipartxtras-teaching-and-learning-with-technology-proceedings 1.png"
+             class="footer-bg-img bottom" alt="" style="right: -25%; bottom: -24%;">
+             
+      </div>
+     
+
+      <!-- COLUMN 4 -->
+      <div class="col-12 col-md-3 position-relative footer-col text-lg-end">
+      
+        <h6 class="fw-text">Download the App</h6>
+        <img src="img/common/Google 2.png" class="img-fluid mt-2  ms-lg-5" alt="Google Play">
+         <img src="img/kite-icons/Home/png-transparent-student-higher-education-study-skills-learning-products-people-logo-teacher 2.png"
+             class="footer-bg-img bottom" alt=""  style="right: -2%;bottom: -23%;">
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- COPYRIGHT BAR -->
+  <div class="copyright-bar text-white bg-text py-3 ps-5">
+    © 2025 Kitecareers, Inc.
+  </div>
+</footer>
 
 
 </body>

@@ -7,9 +7,21 @@ body {
   background-color: #7E00A7 !important;
 }
 
-.text-purple {
+.text-purple  {
   color: #7E00A7 !important;
 }
+.text-purple1  {
+  color: #7E00A7 !important;
+}
+
+.your-score-text{
+font-weight: 700;
+color: #363942;
+font-size: 19px;
+
+
+}
+
 
 .image_svg{
   width: 21px;
@@ -33,6 +45,14 @@ body {
   border-radius: 10px;
 
 }
+.certificate-and-share{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:300px;
+  height: 42px;
+
+}
 
 .Certificate_btn span {
   font-size: 16px;
@@ -41,7 +61,15 @@ body {
   width: 116px;
   height: 23px;
   position: relative;
+  
 
+}
+
+
+
+
+.text-muted{
+  font-weight: 400;
 }
 
 /* Summary Card */
@@ -50,9 +78,12 @@ body {
   position: relative;
   right: 75px;
   width: 384px;
+  height: 649px;
 
 
 }
+
+
 
 .summary-card-inner {
   border-radius: 10px;
@@ -76,6 +107,12 @@ body {
   position: relative;
   top: 10px;
 
+}
+
+.your-score-1{
+      position: relative;
+    top: -8px;
+    margin-bottom: 5px;
 }
 
 
@@ -187,7 +224,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   position: relative;
-  left: 30px;
+  left: 50px;
 
 
 }
@@ -436,7 +473,7 @@ body {
 
   /* Question text alignment */
   ._question {
-    left: 0;
+    left: 20px;
   }
 }
 
@@ -496,7 +533,7 @@ body {
   
 
   ._question {
-    left: 0;
+    left: 20;
     font-size: 14px;
   }
 
@@ -511,6 +548,8 @@ body {
     height: 26px;
     font-size: 14px;
   }
+
+
 
   /* Details section */
   .details {
