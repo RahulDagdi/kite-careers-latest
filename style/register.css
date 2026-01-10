@@ -87,8 +87,8 @@ body{
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
-   margin-right: 385px;
-  margin-left: 120px;
+   margin-right: 300px;
+  margin-left: 100px;
 }
 
 .search-bar input {
@@ -141,28 +141,29 @@ body{
   font-size: 28px;
   line-height: 34px;
   position: relative;
-  left: 50px;
-  top: -70px;
+  left: 30px;
+  top: -80px;
   color: white;
 }
 
 .content1 {
-    width: 293px;
-  height: 79px;
+    width: 252px;
+  /* height: 79px; */
     position: relative;
-  left: 50px;
-  top: -100px;
+  left: 30px;
+  top: -110px;
   font-size: 16px;
   color: white;
+
 }
 
 .students1 {
 
-  width: 911px;
-  height: 670px;
+  width: 799px;
+  height: 463px;
   position: relative;
   top:-30px ;
-  left: 20px;
+  /* left: -10px; */
 
   /* right: 50px; */
 
@@ -176,13 +177,13 @@ body{
 .auth-box {
   background: #FCF5FF;
   border-radius: 10px;
-  padding: 50px 20px;
-  margin-top: 20px;
+  padding: 50px 0px;
+  margin-top: 10px;
   margin-bottom: 60px;
-  height: 785px;
-  width: 463px;
+  height: 753px;
+ width: 463px;
   position: relative;
-   left: 20px;
+   right: 15px;
  }
 
 .auth-title {
@@ -221,6 +222,8 @@ body{
 
 /* Form controls */
 .form-control {
+  margin: auto;
+  width: 427px;
   height: 43px;
   opacity:0.70;
   border-width: 1px;
@@ -234,7 +237,43 @@ body{
   letter-spacing: 0%;
   vertical-align: middle;
 }
+.form-control-m-f{
+  /* margin: auto; */
+  width:206px ;
+  height: 43px;
+  opacity:0.70;
+  border-width: 1px;
+  border-radius: 10px;
+  border: 1px solid #454C63 !important;
+  color: var(--text-color) !important;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.male-female{
+  margin-left:5px ;
+  width: 427px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.m-f{
+  margin-left: 10px ;
+}
+.female{
+  position: relative;
+  right: 30px;
+}
 
+.male-female .form-control-m-f{
+  background: white;
+}
+
+.form-control-m-f,
 .form-control:focus-visible,
 .form-control:focus {
   box-shadow: none !important;
@@ -253,4 +292,15 @@ body{
 
 .address ,.namefull , .email {
   width: 100%;
+}
+.check-box{
+  margin-top: 3px;
+ 
+}
+
+.btn-confirm{
+  width: 427px;
+  position: relative;
+  top: 10px;
+  margin-left:17px ;
 }
