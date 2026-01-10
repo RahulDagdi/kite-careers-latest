@@ -8,203 +8,126 @@
   --theme-light: #DBC0E5;
 }
 
-/* ---------------- TOP OFFER BAR ---------------- */
+/* ================= GLOBAL ================= */
+body {
+  font-family: var(--font);
+  overflow-x: hidden;
+}
 
+/* ================= TOP OFFER ================= */
 .top-offer-bar {
   background: #000;
   font-size: 0.9rem;
-  font-family: var(--font);
 }
+.top-limited { color: var(--theme-light); }
+.bg-round { background: var(--primary-color); }
 
-.top-limited {
-  color: var(--theme-light);
-}
+/* ================= NAVBAR ================= */
+.nav-item { font-size: 0.9rem !important; }
+.nav-link { color: var(--title-color); margin-right: 20px; }
 
-.bg-round {
-  background: var(--primary-color);
-}
-
-/* ---------------- NAVBAR ---------------- */
-
-.nav-item {
-  font-size: 0.9rem !important;
-  font-family: var(--font);
-  font-weight: 400;
-}
-
-.nav-link {
-  font-weight: 400;
-  font-size: 0.9rem;
-  color: var(--title-color);
-  margin-right: 20px;
-}
-
-/* ---------------- BUTTONS ---------------- */
-
+/* ================= BUTTONS ================= */
 .btns {
   padding: 7px 36px;
-  width: 248px;
-  height: 38px;
-  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .btn-purple {
-  background-color: var(--primary-color) !important;
+  background: var(--primary-color) !important;
   color: #fff;
   border-radius: 6px;
-  font-weight: 400;
-  font-family: var(--font);
 }
-
-.btn-outline-purple {
+.btn-log-in {
   border: 2px solid var(--primary-color);
-  border-radius: 6px;
-  font-weight: 500;
-
+  width: 248px;
+  height: 38px;
 }
-
 .btn-outline-purple:hover {
   background: var(--primary-color);
-  /* color: #fff; */
+  color: #fff;
 }
 
-/* ---------------- SEARCH BAR ---------------- */
-
-
-
-.search-bar input {
-  width: 100%;
-  border: 1.5px solid #454C63;
-  font-family: var(--font);
-}
-
-
-
+/* ================= SEARCH BAR ================= */
 .search-bar {
-    display: flex;
+  display: flex;
   align-items: center;
   padding: 0 8px;
   width: 410px;
   height: 38px;
-  min-width: 35% !important;
   border-radius: 10px;
-  border: 1px solid var(--border-color) ;
-  font-family: var(--font);
-  margin-right: 400px;
-  margin-left: 120px;
+  border: 1px solid var(--border-color);
+  margin-left: 85px;
+  margin-right: 300px;
 }
-
 .search-bar input {
   width: 100%;
   border: none;
   outline: none;
 }
-.second-input:focus-visible {
-  /* outline: none !important; */
+
+/* ================= LEFT SECTION ================= */
+.left-section { position: relative; }
+.left-section .col-md-5 {
+  position: absolute;
+  top: 120px;
+  z-index: 2;
 }
-
-/* ---------------- LEFT SECTION ---------------- */
-
-.left-section {
-  font-family: var(--font);
-}
-
 .title {
-  font-family: var(--font);
-  font-weight: 700;
   font-size: 28px;
+  font-weight: 700;
   line-height: 34px;
-  color: var(--title-color);
+  font-style: Bold;
+  letter-spacing: 0%;
+  color: white;
+  position: relative;
+  top: -80px;
+  left: 20px;
 }
-
 .content {
-  font-family: var(--font);
-  font-weight: 400;
+  width:252px;
   font-size: 16px;
+  font-weight: 400;
   line-height: 23px;
-  color: var(--text-color);
+  font-style: Bold;
+  letter-spacing: 0%;
+  color: white;
+  position: relative;
+  top: -100px;
+  left: 20px;
+}
+.students {
+  width: 799px;
+  height: 463px;
+  
 }
 
-/* ---------------- AUTH BOX ---------------- */
-
+/* ================= AUTH BOX ================= */
 .auth-box {
   background: var(--light-color);
   border-radius: 10px;
-  padding: 50px 20px;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  height: 564px;
   width: 463px;
+  height: 611px;
+  margin-bottom: 30px;
   position: relative;
-  left: 33px;
+  right: 40px;
 }
-
 .auth-title {
-  font-family: var(--font);
-  font-weight: 700;
   font-size: 24px;
-  line-height: 30px;
-  color: var(--title-color);
+  font-weight: 700;
+}
+.enter-otp-text{
+  color: #9D9EA2;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
 }
 
 .form-control {
   height: 43px;
   border-radius: 10px;
   border: 1px solid var(--border-color) !important;
-  font-family: var(--font);
-}
-
-.form-control:focus {
-  box-shadow: none !important;
-}
-
-
-
-/* ---------------- FOOTER ---------------- */
-
-.footer-section {
-  background-color: var(--light-color);
-  position: relative;
-  overflow: hidden;
-}
-
-.footer-col {
-  position: relative;
-  z-index: 2;
-}
-
-.footer-bg-img {
-  position: absolute;
-  z-index: 1;
-}
-
-.footer-bg-img.top {
-  top: -40px;
-  right: -17px;
-}
-
-.footer-bg-img.bottom {
-  right: 65px;
-  bottom: -50px;
-}
-
-.fw-text {
-  font-weight: 700;
-  font-size: 1.4rem;
-  font-family: var(--font);
-  color: var(--title-color);
-}
-
-.bg-text {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 31px;
-  color: var(--title-color);
-}
-
-.footer-list {
-  margin-top: 10px;
 }:root {
   --primary-color: #7E00A7;
   --light-color: #FCF5FF;
@@ -216,297 +139,133 @@
 }
 
 /* ================= GLOBAL ================= */
-
 body {
   font-family: var(--font);
   overflow-x: hidden;
-  /* height: 100vh; */
 }
 
-/* ================= TOP BAR ================= */
-
+/* ================= TOP OFFER ================= */
 .top-offer-bar {
   background: #000;
   font-size: 0.9rem;
 }
-
-.top-limited {
-  color: var(--theme-light);
-}
-
-.bg-round {
-  background: var(--primary-color);
-}
+.top-limited { color: var(--theme-light); }
+.bg-round { background: var(--primary-color); }
 
 /* ================= NAVBAR ================= */
-
-.nav-item {
-  font-size: 0.9rem !important;
-}
-
-.nav-link {
-  font-size: 0.9rem;
-  color: var(--title-color);
-  margin-right: 20px;
-}
-
-
+.nav-item { font-size: 0.9rem !important; }
+.nav-link { color: var(--title-color); margin-right: 20px; }
 
 /* ================= BUTTONS ================= */
-
 .btns {
   padding: 7px 36px;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .btn-purple {
-  background-color: var(--primary-color) !important;
+  background: var(--primary-color) !important;
   color: #fff;
   border-radius: 6px;
 }
-
 .btn-outline-purple {
   border: 2px solid var(--primary-color);
-  border-radius: 6px;
- 
 }
-
 .btn-outline-purple:hover {
   background: var(--primary-color);
   color: #fff;
 }
 
+/* ================= SEARCH BAR ================= */
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  width: 410px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
 /* ================= LEFT SECTION ================= */
-
-/* Parent ko relative */
-.left-section {
-  position: relative;
-}
-
-/* IMAGE normal rahe */
-.left-section .col-md-9 {
-  position: relative;
-  z-index: 1;
-}
-
-/* TEXT image ke upar overlap kare */
+.left-section { position: relative; }
 .left-section .col-md-5 {
   position: absolute;
-  top: 120px;        /* yahan adjust kar sakte ho */
-  left: 0;
+  top: 120px;
   z-index: 2;
 }
-
-
-
 .title {
-  width: 293px;
-  height: 79px;
-  font-weight: 700;
   font-size: 28px;
-  line-height: 34px;
-  position: relative;
-  left: 70px;
-  top: -70px;
+  font-weight: 700;
   color: white;
 }
-
 .content {
-    width: 293px;
-  height: 79px;
-    position: relative;
-  left: 70px;
-  top: -100px;
   font-size: 16px;
   color: white;
 }
-
 .students {
-
-  width: 911px;
-  height:650px;
-  position: relative;
-  top: -10px;
-  margin-left: 30px;
-
-
+  width: 799px;
+  height: 611px;
+  margin-bottom: 50px;
 }
 
-
-
-
-
 /* ================= AUTH BOX ================= */
-
 .auth-box {
   background: var(--light-color);
   border-radius: 10px;
-  padding: 40px 20px;
-  
+  padding: 80px 20px 40px;
   width: 463px;
-  height:650px;
-  /* margin: 0px  auto 60px; */
-  margin-top: 0;
-  margin-bottom: 50px;
-  position: relative;
-  top: 10px;
-  left: 20px;
-  padding-top: 97px;
-
-   
-}
-
-
-.page-content {
-  min-height: auto !important;
+  height: 611px;
+  margin-top: 20px;
+  /* margin-left: 20px; */
 }
 .auth-title {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 50px;
 }
-
 .form-control {
   height: 43px;
   border-radius: 10px;
   border: 1px solid var(--border-color) !important;
 }
-
-.enter-otp-text{
-  position: relative;
-  /* top: 0px; */
-  left: 0px;
-  color: #9D9EA2;
-
-}
-.form-control:focus {
-  box-shadow: none !important;
-}
-
+.form-control:focus { box-shadow: none; }
 
 /* ================= OTP ================= */
+.otp-input {
+  width: 64px;
+  height: 53px;
+    
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
 
-/* ---------------- OTP ---------------- */
+.proceed-btn{
+  margin-top: 100px;
+}
 
+/* ================= RESPONSIVE ================= */
+@media (max-width: 576px) {
+  .students { width: 100%; height: auto; }
+}
 
+.form-control:focus { box-shadow: none; }
+
+/* ================= OTP ================= */
 .otp-input {
   width: 64px;
   height: 53px;
   border-radius: 10px;
   text-align: center;
-  font-size: 20px;
-  border: 1px solid #454C63;
-  
-}
-
-
-/* ================= FOOTER ================= */
-
-.footer-section {
-  background-color: var(--light-color);
-  position: relative;
-  overflow: hidden;
-}
-
-.footer-col {
-  position: relative;
-  z-index: 2;
-}
-
-.footer-bg-img {
-  position: absolute;
-  z-index: 1;
-  max-width: 120px;
-  opacity: 0.2;
-}
-
-.footer-bg-img.top {
-  top: -30px;
-  right: -10px;
-}
-
-.footer-bg-img.bottom {
-  bottom: -40px;
-  right: 40px;
-}
-
-.fw-text {
-  font-weight: 700;
-  font-size: 1.3rem;
-}
-
-.bg-text {
-  font-size: 15px;
-  line-height: 28px;
-}
-
-.footer-list {
-  margin-top: 10px;
-}
-
-/* ================= COPYRIGHT ================= */
-
-.copyright-bar {
-  background-color: var(--primary-color);
-  font-size: 0.9rem;
-  color: #fff;
+  border: 1px solid var(--border-color);
 }
 
 /* ================= RESPONSIVE ================= */
-
-/* Tablet */
-@media (max-width: 992px) {
-  .left-section {
-    text-align: center;
-  }
-
-  .search-bar {
-    max-width: 100%;
-  }
-}
-
-/* Mobile */
 @media (max-width: 576px) {
-  .title {
-    font-size: 22px;
-    line-height: 28px;
-  }
-
-  .content {
-    font-size: 14px;
-  }
-
- 
-
-  .footer-bg-img {
-    display: none;
-  }
-
-  .footer-section {
-    text-align: center;
-  }
-}
-
-
-/* ---------------- COPYRIGHT ---------------- */
-
-.copyright-bar {
-  background-color: var(--primary-color);
-  font-size: 0.9rem;
-  color: #fff;
-}
-
-/* ---------------- RESPONSIVE ---------------- */
-
-@media (max-width: 768px) {
-  .footer-section {
-    text-align: center;
-  }
-
-  .center {
-    display: flex;
-    justify-content: center;
-  }
+  .students { width: 100%; height: auto; }
 }
