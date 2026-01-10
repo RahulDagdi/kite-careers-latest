@@ -76,9 +76,10 @@ font-size: 19px;
 .summary-card {
   border-radius: 10px;
   position: relative;
-  right: 75px;
+  /* left: 75px; */
   width: 384px;
   height: 649px;
+  margin-left: -40px;
 
 
 }
@@ -177,6 +178,8 @@ font-size: 19px;
 
 .chapter_btn_div{
   width: 384px;
+  margin-left: 35px; 
+  margin-bottom: 20px;
 
 }
 
@@ -200,11 +203,13 @@ font-size: 19px;
 
 /* Question Cards */
 .question-card {
+  width: 801px;
   border-radius: 14px;
   border: 1px solid #ddd;
   background: #FFFFFF;
+  /* margin-top: 20px; */
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 
@@ -364,9 +369,9 @@ font-size: 19px;
   background-color: #fff;
   margin-right: 100px;
   border-radius: 10px;
-  width: 100%;
+  width: 801px;
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 
@@ -386,7 +391,7 @@ font-size: 19px;
   /* left aligned */
   padding-top: 30px;
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 .continue-section p {
@@ -420,7 +425,7 @@ font-size: 19px;
   font-size: 14px;
   border-radius: 6px;
   background: #7E00A7;
-  width: 100%;
+  width: 801px;
   height: 42px;
   margin-right: 200px;
   border-radius: 10px;
