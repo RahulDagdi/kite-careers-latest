@@ -10,42 +10,52 @@
     />
     <link rel="stylesheet" href="style/details_Page.css" />
     <link rel="stylesheet" href="style/footer.css" />
-    <style>
-      /* body { background:#faf7ff; font-family: Arial, sans-serif; } */
-      .course-title {
-        font-weight: 700;
-      }
-      .badge-rating {
-        background: #f4b400;
-        color: #fff;
-        font-size: 12px;
-      }
-      .course-card {
-        border-radius: 12px;
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-      }
-      .price {
-        font-size: 26px;
-        font-weight: 700;
-      }
-      .old-price {
-        text-decoration: line-through;
-        color: #999;
-      }
+     <style>
+    /* body { background:#faf7ff; font-family: Arial, sans-serif; } */
+    .course-title {
+      font-weight: 700;
+    }
 
-      .instructor img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-      }
-      .certificate-box {
-        background: #fff;
-        border-radius: 12px;
-        padding: 30px;
-      }
-    </style>
+    .badge-rating {
+      background: #f4b400;
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .course-card {
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .price {
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .instructor img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    .certificate-box {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+    }
+  </style>
   </head>
   <body>
+  
+
+  <div class="page-wrapper">
+
+
     <div class="container my-5">
       <div class="row g-5">
         <!-- LEFT CONTENT -->
@@ -86,7 +96,8 @@
             also the leap into electronic Lorem Ipsum has been the industry's
             standard dummy text since the 1500s, when an unknown printer took a
             galley of type and scrambled it to make type specimen book has
-            survived not five centuries but also the leap into electronic...more
+            survived not five centuries but also the leap into electronic...
+            <a class="more" href="">more</a>
           </div>
 
           <div class="d-flex gap-3 my-4 align-items-center">
@@ -136,7 +147,7 @@
             <div class="skill-box">Pronunciation</div>
           </div>
 
-          <!-- INSTRUCTOR -->
+          INSTRUCTOR
           <div class="mt-5 instructor d-flex align-items-center gap-3">
             <img src="https://i.pravatar.cc/100" />
             <div>
@@ -146,14 +157,15 @@
           </div>
         </div>
 
+
+
+
         <!-- RIGHT CARD -->
         <div class="col-lg-5">
-          <div class="card course-card p-2">
+          <div class="card course-card-right p-2">
             <div class="position-relative">
-              <img src="img/Detail/Mask group.png" class="img-fluid rounded" />
-              <div
-                class="position-absolute d-flex justify-content-center align-items-center"
-                style="
+              <img src="img/Detail/Mask group.png" class="img-fluid right-card-img rounded" />
+              <div class="position-absolute d-flex justify-content-center align-items-center" style="
                   top: 45%;
                   left: 45%;
                   width: 61px;
@@ -161,14 +173,8 @@
                   border-radius: 50%;
                   background: #ffffff85;
                   cursor: pointer;
-                "
-                onclick="openModal()"
-              >
-                <img
-                  src="img/Detail/Polygon 1.svg"
-                  width="22px"
-                  height="22px"
-                />
+                " onclick="openModal()">
+                <img src="img/Detail/Polygon 1.svg" width="22px" height="22px" />
               </div>
             </div>
             <div class="card-body">
@@ -182,9 +188,7 @@
                 <div class="explore-number">₹999.00</div>
               </div>
 
-              <div
-                class="d-flex justify-content-between align-items-center mt-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mt-3">
                 <div class="d-flex gap-3">
                   <div class="d-flex gap-2">
                     <img src="img/Detail/Group 9.svg" />
@@ -198,93 +202,60 @@
 
                 <div class="rating-number">
                   <span>
-                    <img
-                      src="img/icon/yellow-star.svg"
-                      width="17px"
-                      height="17px"
-                    />
+                    <img src="img/icon/yellow-star.svg" width="17px" height="17px" />
                   </span>
                   4.7/5
                 </div>
               </div>
 
               <div class="exploring-text my-3">Courses Includes</div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
                   <img src="img/Detail/price.svg" width="23px" height="23px" />
                   Price:
                 </div>
-                <div class="explore-number">₹599.00</div>
+                <div class="explore-number">₹599.00 <span style="text-decoration: line-through; color: #6E7380;font-weight: 400;"">₹999.00 </span></div>
               </div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
-                  <img
-                    src="img/Detail/registration_svgrepo.com.svg"
-                    width="23px"
-                    height="23px"
-                  />
+                  <img src="img/Detail/registration_svgrepo.com.svg" width="23px" height="23px" />
                   Enrolled:
                 </div>
                 <div class="main-course-text">10 Students</div>
               </div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
                   <img src="img/Detail/Vector.svg" width="23px" height="23px" />
                   Lessons:
                 </div>
                 <div class="main-course-text">18 Lessons</div>
               </div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
                   <img src="img/Detail/price.svg" width="23px" height="23px" />
                   Duration:
                 </div>
                 <div class="main-course-text">08 hr 15 mins</div>
               </div>
-              
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
-                  <img
-                    src="img/Detail/quiz-on-computer-with-question-signs-around_svgrepo.com.svg"
-                    width="23px"
-                    height="23px"
-                  />
+                  <img src="img/Detail/quiz-on-computer-with-question-signs-around_svgrepo.com.svg" width="23px"
+                    height="23px" />
                   Quiz:
                 </div>
                 <div class="main-course-text">2 Quiz</div>
               </div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
-                  <img
-                    src="img/Detail/ability-business-skill_svgrepo.com.svg"
-                    width="23px"
-                    height="23px"
-                  />
+                  <img src="img/Detail/ability-business-skill_svgrepo.com.svg" width="23px" height="23px" />
                   Skill Level:
                 </div>
                 <div class="main-course-text">Beginner</div>
               </div>
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
+              <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="main-course-text gap-2">
-                  <img
-                    src="img/Detail/Vector (1).svg"
-                    width="23px"
-                    height="23px"
-                  />
+                  <img src="img/Detail/Vector (1).svg" width="23px" height="23px" />
                   Category:
                 </div>
                 <div class="main-course-text">Language</div>
@@ -295,14 +266,14 @@
             </a>
           </div>
 
+
+          <!---------- Reviews Section------------->
+
           <div class="review-section mt-5">
             <div class="exploring-text">Reviews</div>
 
-            <div
-              class="explore-number text-center mt-5"
-              style="font-size: 35px"
-            >
-              ₹999.00
+            <div class="explore-number text-center mt-3" style="font-size: 35px">
+              5.0
             </div>
             <div class="d-flex gap-3 justify-content-center my-3">
               <img src="img/icon/yellow-star.svg" width="30px" height="30px" />
@@ -314,6 +285,7 @@
             </div>
 
             <div class="main-course-text text-center">Total 5 Rating</div>
+            
 
             <div class="d-flex gap-3 w-100 mt-5 align-items-center">
               <img src="img/icon/yellow-star.svg" height="20px" width="20px" />
@@ -326,35 +298,49 @@
             </div>
             <div class="d-flex gap-3 w-100 mt-3 align-items-center">
               <img src="img/icon/yellow-star.svg" height="20px" width="20px" />
-              <div class="main-course-text">5</div>
+              <div class="main-course-text">4</div>
               <div class="progress" style="width: 63%">
                 <div class="progress-bar" role="progressbar"></div>
               </div>
 
-              <div class="main-course-text">5 Ratings</div>
+              <div class="main-course-text">0 Ratings</div>
             </div>
             <div class="d-flex gap-3 w-100 mt-3 align-items-center">
               <img src="img/icon/yellow-star.svg" height="20px" width="20px" />
-              <div class="main-course-text">5</div>
+              <div class="main-course-text">3</div>
               <div class="progress" style="width: 63%">
                 <div class="progress-bar" role="progressbar"></div>
               </div>
 
-              <div class="main-course-text">5 Ratings</div>
+              <div class="main-course-text">0 Ratings</div>
             </div>
+
+
             <div class="d-flex gap-3 w-100 mt-3 align-items-center">
               <img src="img/icon/yellow-star.svg" height="20px" width="20px" />
-              <div class="main-course-text">5</div>
+              <div class="main-course-text">2</div>
               <div class="progress" style="width: 63%">
                 <div class="progress-bar" role="progressbar"></div>
               </div>
 
-              <div class="main-course-text">5 Ratings</div>
+              <div class="main-course-text">0 Ratings</div>
             </div>
+
+            <div class="d-flex gap-3 w-100 mt-3 align-items-center">
+              <img src="img/icon/yellow-star.svg" height="20px" width="20px" />
+              <div class="main-course-text">1</div>
+              <div class="progress" style="width: 63%">
+                <div class="progress-bar" role="progressbar"></div>
+              </div>
+
+              <div class="main-course-text">0 Ratings</div>
+            </div>
+
+
           </div>
 
 
-          
+
         </div>
       </div>
     </div>
@@ -377,20 +363,13 @@
               </div>
 
               <div class="d-flex gap-3 align-items-center mt-3">
-                <span
-                  class="popular-text pr-3"
-                  style="border-right: 1px solid #959bac; padding-right: 15px"
-                >
+                <span class="popular-text pr-3" style="border-right: 1px solid #959bac; padding-right: 15px">
                   Course
                 </span>
 
                 <div class="rating-number d-flex align-items-center gap-2">
                   <span>
-                    <img
-                      src="img/icon/yellow-star.svg"
-                      width="10px"
-                      height="9px"
-                    />
+                    <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
                   </span>
                   4.7/5
                 </div>
@@ -413,20 +392,13 @@
               </div>
 
               <div class="d-flex gap-3 align-items-center mt-3">
-                <span
-                  class="popular-text pr-3"
-                  style="border-right: 1px solid #959bac; padding-right: 15px"
-                >
+                <span class="popular-text pr-3" style="border-right: 1px solid #959bac; padding-right: 15px">
                   Course
                 </span>
 
                 <div class="rating-number d-flex align-items-center gap-2">
                   <span>
-                    <img
-                      src="img/icon/yellow-star.svg"
-                      width="10px"
-                      height="9px"
-                    />
+                    <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
                   </span>
                   4.7/5
                 </div>
@@ -449,20 +421,13 @@
               </div>
 
               <div class="d-flex gap-3 align-items-center mt-3">
-                <span
-                  class="popular-text pr-3"
-                  style="border-right: 1px solid #959bac; padding-right: 15px"
-                >
+                <span class="popular-text pr-3" style="border-right: 1px solid #959bac; padding-right: 15px">
                   Course
                 </span>
 
                 <div class="rating-number d-flex align-items-center gap-2">
                   <span>
-                    <img
-                      src="img/icon/yellow-star.svg"
-                      width="10px"
-                      height="9px"
-                    />
+                    <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
                   </span>
                   4.7/5
                 </div>
@@ -485,20 +450,13 @@
               </div>
 
               <div class="d-flex gap-3 align-items-center mt-3">
-                <span
-                  class="popular-text pr-3"
-                  style="border-right: 1px solid #959bac; padding-right: 15px"
-                >
+                <span class="popular-text pr-3" style="border-right: 1px solid #959bac; padding-right: 15px">
                   Course
                 </span>
 
                 <div class="rating-number d-flex align-items-center gap-2">
                   <span>
-                    <img
-                      src="img/icon/yellow-star.svg"
-                      width="10px"
-                      height="9px"
-                    />
+                    <img src="img/icon/yellow-star.svg" width="10px" height="9px" />
                   </span>
                   4.7/5
                 </div>
@@ -557,43 +515,56 @@
         </li>
       </ul>
     </div>
+  </div>
 
-    <!-- ===== Instructor Card ===== -->
-    <h5 class="text-center about-title mt-5 mb-3" style="padding-bottom: 85px">
-      Instructors
-    </h5>
-    <div class="">
-      <div class="instructor-card mx-auto text-center position-relative">
-        <a href="teacher-profile.html">
-          <img
-            src="img/Detail/Instructor-profile.svg"
-            class="instructor-img position-absolute"
-          />
-        </a>
 
-        <h5 class="mb-1 profile-name" style="padding-top: 73px">Jacob</h5>
 
-        <span class="badge role-badge mb-2">Chief English Expert</span>
 
-        <div class="view-profile">View Profile</div>
+  <!-- ===== Instructor Card ===== -->
 
-        <div class="stats mt-1">
-          <p class="mb-0">45,000 Reviews</p>
-          <p class="mb-0">13 Courses</p>
-          <p class="mb-0">4.5 Instructor Rating</p>
-        </div>
+ <div class="container-fluid px-0">
 
-        <div class="text-center d-flex justify-content-center">
-          <p class="syllabus-text mt-3" style="max-width: 650px">
-            Lorem ipsum is a dummy placeholder text commonly used in graphic
-            design, publishing and web development. Lorem ipsum is a dummy
-            placeholder text commonly used in graphic design, publishing and web
-            development.
-            <span class="see-more">See more</span>
-          </p>
+      <h5 class="text-center about-title mt-5 mb-3" style="padding-bottom: 85px">
+        Instructors
+      </h5>
+      <div class="">
+        <div class="instructor-card mx-auto text-center position-relative">
+          <a href="teacher-profile.html">
+            <img src="img/Detail/Instructor-profile.svg" class="instructor-img position-absolute" />
+          </a>
+
+          <h5 class="mb-1 profile-name" style="padding-top: 73px">Jacob</h5>
+
+          <span class="badge role-badge mb-2">Chief English Expert</span>
+
+          <div class="view-profile">View Profile</div>
+
+          <div class="stats mt-1">
+            <p class="mb-0">45,000 Reviews</p>
+            <p class="mb-0">13 Courses</p>
+            <p class="mb-0">4.5 Instructor Rating</p>
+          </div>
+
+          <div class="text-center d-flex justify-content-center">
+            <p class="syllabus-text mt-3" style="max-width: 650px">
+              Lorem ipsum is a dummy placeholder text commonly used in graphic
+              design, publishing and web development. Lorem ipsum is a dummy
+              placeholder text commonly used in graphic design, publishing and web
+              development.
+              <a class="see-more" style="text-decoration: none ;cursor: pointer; ">See more</a>
+            </p>
+          </div>
         </div>
       </div>
+
+
     </div>
+
+
+
+
+
+  <div class="page-wrapper">
 
     <!-- ===== Certificate Section ===== -->
     <div class="container certificate-section my-5">
@@ -614,29 +585,23 @@
             publishing, and web development. Lorem ipsum is a dummy or
             placeholder text commonly used in graphic design, publishing, and
             web development. Lorem ipsum is a dummy or placeholder text commonly
-            used in graphic design, publishing, and web development See more
-            <span class="see-more">See more</span>
+            used in graphic design, publishing, and web development...
+           <a href=""> <span class="see-more" ">See more</span></a>
           </p>
         </div>
 
         <div class="col-md-5 text-center">
           <div class="certificate-card">
-            <img
-              src="img/Detail/certificate.png"
-              height="292px"
-              class="img-fluid"
-            />
-            <div
-              class="syllabus-text mt-2 d-flex align-items-center justify-content-lg-end"
-            >
+            <img src="img/Detail/certificate.png" height="292px" class="img-fluid" />
+
+<a href="" class="download-certificate">
+  
+            <div class="syllabus-text mt-2 d-flex align-items-center justify-content-lg-end">
               Download Now
-              <span
-                ><img
-                  src="img/Detail/download_svgrepo.com.svg"
-                  height="32px"
-                  width="32px"
-              /></span>
+              <span><img src="img/Detail/download_svgrepo.com.svg" height="32px" width="32px" /></span>
             </div>
+</a>
+            
           </div>
         </div>
       </div>
@@ -652,11 +617,7 @@
       <div class="accordion custom-accordion" id="faqAccordion">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button
-              class="accordion-button syllabus-text"
-              data-bs-toggle="collapse"
-              data-bs-target="#q1"
-            >
+            <button class="accordion-button syllabus-text" data-bs-toggle="collapse" data-bs-target="#q1">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry Lorem Ipsum is simply dummy text of the industry ?
             </button>
@@ -671,11 +632,7 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed syllabus-text"
-              data-bs-toggle="collapse"
-              data-bs-target="#q2"
-            >
+            <button class="accordion-button collapsed syllabus-text" data-bs-toggle="collapse" data-bs-target="#q2">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry Lorem Ipsum is simply dummy text of the industry ?
             </button>
@@ -689,11 +646,7 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed syllabus-text"
-              data-bs-toggle="collapse"
-              data-bs-target="#q3"
-            >
+            <button class="accordion-button collapsed syllabus-text" data-bs-toggle="collapse" data-bs-target="#q3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry Lorem Ipsum is simply dummy text of the industry ?
             </button>
@@ -706,12 +659,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
 
 
 
@@ -752,9 +699,8 @@
     <img src="img/Detail/down-arrow_svgrepo.com.svg" />
   </div> -->
     </div>
-
-  
-
+    
+  </div>
 
 
     <!-- footer section-14 -->

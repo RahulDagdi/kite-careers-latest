@@ -11,14 +11,26 @@
 }
 
 
-
+/* 
 .container {
   margin-top: 50px;
   margin-left: 30px;  
   margin-right: 0px; 
+} */
+
+
+
+.container {
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
+/* .page-wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+} */
 
 .top-limited{
     color: var(--theme-light);
@@ -328,6 +340,9 @@ color:  var(--primary-color);
 }
 
 
+.right-card-img{
+
+}
 
 
 /* footer section-14 */
@@ -450,6 +465,12 @@ vertical-align: middle;
 color: var(--title-color);
 
 }
+.course-card-right{
+  width: 467px;
+  height: 785px;
+
+}
+
 
 .course-content{
   font-family:var(--font);
@@ -592,9 +613,9 @@ color: var(--primary-color);
 
 /* Instructor Card */
 .instructor-card {
-  /* max-width: 700px; */
+ 
   border: 1px solid var(--primary-color);
-  /* border-radius: 6px; */
+
   background: var(--light-color);
 }
 
@@ -602,10 +623,12 @@ color: var(--primary-color);
   width: 149px;
   height: 149px;
   border-radius: 50%;
- border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   object-fit: cover;
+
   top:-25%;
-  left:44%;
+  left:45%;
+  transform: translateX(-50);
 }
 
 .role-badge {
@@ -644,15 +667,19 @@ color: #6E7380;
 
 }
 
-.see-more{
-  font-family: var(--font);
+.more ,
+.see-more,
+.download-certificate
+{
+font-family: var(--font);
 font-weight: 400;
 font-size: 16px;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
-vertical-align: middle;
-color: var(--primary-color);
+/* vertical-align: middle; */
+/* color: var(--primary-color); */
+text-decoration: none;
 
 }
 
