@@ -3,7 +3,7 @@
 /* FOOTER BACKGROUND */
 
 .footer-section {
-
+height: 414px;
   background-color: #FCF5FF;
 
   position: relative;
@@ -109,18 +109,34 @@ color: var(--title-color);
 
 }
 
+.number-text{
+  margin-top: 10px;
+  position: relative;
+  right:79px;
+}
+
+.email-text{
+position: relative;
+  right:60px;
+}
 
 
 /* COPYRIGHT */
 
 .copyright-bar {
-
+ 
   background-color: #7E00A7;
 
   font-size: 0.9rem;
+  margin: 0;
 
 }
 
+
+.copyright-bar span{
+  position: relative;
+  right: 590px;
+}
 
 
 /* RESPONSIVE FIXES */
