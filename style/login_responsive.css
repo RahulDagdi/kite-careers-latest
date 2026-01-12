@@ -1,0 +1,160 @@
+/* =====================================================
+   RESPONSIVE FIX (SAFE & NON-DESTRUCTIVE)
+   Desktop untouched | Tablet + Mobile fixed
+===================================================== */
+
+/* ================= TABLET (768px – 991px) ================= */
+@media (max-width: 991px) {
+
+  /* NAVBAR */
+  .search-bar {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  /* MAIN ROW */
+  .left-section {
+    position: static;
+    margin-bottom: 40px;
+  }
+
+  /* TEXT BLOCK */
+  .left-section .col-md-5 {
+    position: static;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .title {
+    position: static;
+    color: #000;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .content {
+    position: static;
+    color: var(--text-color);
+    width: 100%;
+    font-size: 15px;
+  }
+
+  /* IMAGE */
+  .students {
+    width: 100%;
+    height: auto;
+  }
+
+  /* AUTH BOX */
+  .auth-box {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    margin: 0 auto 40px;
+    right: 0;
+    padding: 50px 25px;
+  }
+
+  .proceed-btn {
+    margin-top: 60px;
+  }
+}
+
+/* ================= MOBILE (≤767px) ================= */
+@media (max-width: 767px) {
+
+  /* TOP BAR */
+  .top-offer-bar {
+    text-align: center;
+  }
+
+  /* NAVBAR */
+  .navbar-brand img {
+    width: 150px;
+  }
+
+  .search-bar {
+    height: 42px;
+  }
+
+  .btn-log-in {
+    width: 100%;
+  }
+
+  /* LEFT SECTION */
+  .left-section {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .content {
+    font-size: 14px;
+  }
+
+  /* IMAGE */
+  .students {
+    margin-top: 20px;
+  }
+
+  /* OTP */
+  .otp-input {
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  /* AUTH BOX */
+  .auth-box {
+    padding: 35px 20px;
+  }
+
+  .auth-title {
+    font-size: 20px;
+  }
+
+  .proceed-btn {
+    margin-top: 40px;
+  }
+
+  /* FOOTER */
+  .footer-section,
+  .footer-col {
+    text-align: center;
+  }
+
+  .footer-list {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .copyright-bar {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* ================= SMALL MOBILE (≤400px) ================= */
+@media (max-width: 400px) {
+
+  .title {
+    font-size: 20px;
+  }
+
+  .content {
+    font-size: 13px;
+  }
+
+  .otp-input {
+    width: 38px;
+    height: 40px;
+  }
+}
+
+/* =====================================================
+   END – SAFE RESPONSIVE FIX
+===================================================== */

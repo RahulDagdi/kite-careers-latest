@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="style/quiz_page_back_to_course_override.css">
   <!-- <link rel="stylesheet" href="style/style.css"> -->
-   <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/footer.css">
 
   <title>Quiz Answer Key</title>
 </head>
@@ -22,9 +22,9 @@
 <body>
 
   <!-- TOP BAR -->
-  <div class="container-fluid py-3">
+  <div class="container py-3">
     <div class="d-flex justify-content-between align-items-center px-3">
-      <div class="fw-semibold">
+      <div class="fw-bold fs-5">
         <span class="arrow"><img src="img/quiz-back/Vector (5).svg" alt="arrow"></span>
         Back to course
       </div>
@@ -34,13 +34,14 @@
             View Certificate
           </span>
         </button>
-      <div class="share-logo" style="width: 50px;">
-          <img src="img/Quiz Details page assets/share_svgrepo.com.svg" >
-      </div>
+        <div class="share-logo">
+          <img src="img/Quiz Details page assets/share_svgrepo.com.svg">
+        </div>
       </div>
     </div>
   </div>
-  <div>
+
+  <div class="container">
     <h4 class="Quiz_Answer_Key px-5 py-4 ">
       Quiz Answer Key <br />
       <small class="text_muted">
@@ -54,8 +55,8 @@
     <div class="row g-4">
 
       <!-- LEFT COLUMN -->
-      <div class="col-lg-3">
-        <div class="summary-card  ">
+      <div class="container col-lg-3">
+        <div class=" summary-card  ">
           <div class="summary-card-inner bg-purple text-white  text-center">
 
             <!-- ICON USING IMG TAG -->
@@ -64,28 +65,28 @@
             </div>
 
             <h5 class="fw-bold">Congratulations!</h5>
-            <div class="fw-semibold">You Passed</div>
-            <div class="small opacity-75 mb-3">You unlocked Chapter - 2</div>
+            <div class="fw-semibold your-score-1">You Passed</div>
+            <div class="small opacity-75 mb-4">You unlocked Chapter - 2</div>
 
             <div class="score-box  mb-3">
 
-              <div class="bg-white py-3 your-score ">
+              <div class="bg-white py-3 your-score mb-3 ">
                 <div class="test-center m-auto">
-                  <h2 class="fw-bold mb-0">80%</h2>
-                  <small>Your Score</small>
+                  <h2 class="fw-bold mb-0 text-purple1">80%</h2>
+                  <small class="your-score-text">Your Score</small>
                 </div>
               </div>
 
-              <div class="stat-row">
+              <div class="stat-row  mb-3 ">
                 <span>Questions</span><span>20</span>
               </div>
-              <div class="stat-row">
+              <div class="stat-row  mb-3 ">
                 <span>Correct</span><span>15</span>
               </div>
-              <div class="stat-row">
+              <div class="stat-row  mb-3 ">
                 <span>In-Correct</span><span>5</span>
               </div>
-              <div class="stat-row">
+              <div class="stat-row  mb-2 ">
                 <span>Time Taken</span><span>12m</span>
               </div>
 
@@ -106,7 +107,7 @@
       </div>
 
       <!-- RIGHT COLUMN -->
-      <div class="col-lg-9">
+      <div class="container col-lg-6">
 
 
 
@@ -121,13 +122,6 @@
                     alt="correct">
                 </div>
               </div>
-
-
-
-
-
-
-
 
             </div>
             <p class="questions_number">Question 1</p>
@@ -174,7 +168,7 @@
         </div>
 
 
-           <div class="details-main">
+        <div class="details-main">
           <div class="details mt-2">
             <img src="img/quiz-back/Vector (2) (1).svg" alt="">
             <span class="details_explanation text-purple">Detail Explanation</span>
@@ -209,7 +203,7 @@
             <span>Be specific and clear in your prompts</span>
           </div>
 
-          <div class="option wrong-option fw-semibold ">
+          <div class="option wrong-option  ">
             <div class="">
               <div class="d-flex">
                 <div class="circle 
@@ -227,7 +221,7 @@
           </div>
 
 
-          <div class=" option correct-option fw-semibold">
+          <div class=" option correct-option">
             <div class="d-flex">
               <div class="circle circle_right">C</div>
               <div>
@@ -251,7 +245,7 @@
         </div>
 
 
-           <div class="details-main">
+        <div class="details-main">
           <div class="details mt-2">
             <img src="img/quiz-back/Vector (2) (1).svg" alt="">
             <span class="details_explanation text-purple">Detail Explanation</span>
@@ -261,28 +255,28 @@
             </div>
           </div>
         </div>
-        
-        
-        
 
-        
-      <div class="continue-section">
-        <p>Ready to continue</p>
-        <span>You've unlocked Chapter 2. Continue your learning journey!</span>
-        <button class="btn full">Continue to Chapter 2</button>
+
+
+
+
+        <div class="continue-section">
+          <p>Ready to continue</p>
+          <span>You've unlocked Chapter 2. Continue your learning journey!</span>
+          <button class="btn full mb-5">Continue to Chapter 2</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-</div>
+  
 
 
 
 
  <!-- footer section-14 -->
      <footer class="footer-section">
-  <div class="px-4 py-5">
+  <div class=" container py-5 px-5" >
     <div class="row g-4 position-relative pt-4">
 
       <!-- COLUMN 1 -->
@@ -362,7 +356,10 @@
 
   <!-- COPYRIGHT BAR -->
   <div class="copyright-bar text-white bg-text py-3 ps-5">
+  <div class="container">
     © 2025 Kitecareers, Inc.
+
+  </div>
   </div>
 </footer>
 

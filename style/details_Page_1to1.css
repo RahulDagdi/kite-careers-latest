@@ -10,34 +10,27 @@
   --theme-light:#DBC0E5;
 }
 
-body{
-  /* height: 3612px; */
-  width: 100%;
-  position: relative;
-  top: 47px;
-/* left: -1px; */
+
+/* 
+.container {
+  margin-top: 50px;
+  margin-left: 30px;  
+  margin-right: 0px; 
+} */
 
 
+
+.container {
+  /* margin-top: 50px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.upper-div{
-  position: relative;
-  left: -50px;
-  width: 800px;
-}
 
-
-
-.course-card-top{
-  box-shadow: 0px 1px 47px 0px #b8b3ba63;
- 
-   border-radius: 20px;
-}
-
-.card-body-top-inner{
-     padding: 15px 5px;
-}
-
+/* .page-wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+} */
 
 .top-limited{
     color: var(--theme-light);
@@ -90,6 +83,18 @@ vertical-align: middle;
     background: #7E00A7;
     color: white;
 }
+
+
+.buy-now{
+width: 323px;
+height: 47px;
+
+}
+.add-to-cart{
+width: 323px;
+height: 47px;
+}
+
 
 /* SEARCH BAR */
 
@@ -335,6 +340,9 @@ color:  var(--primary-color);
 }
 
 
+.right-card-img{
+
+}
 
 
 /* footer section-14 */
@@ -457,6 +465,12 @@ vertical-align: middle;
 color: var(--title-color);
 
 }
+.course-card-right{
+  width: 467px;
+  height: 785px;
+
+}
+
 
 .course-content{
   font-family:var(--font);
@@ -496,7 +510,6 @@ line-height: 100%;
 letter-spacing: 0%;
 vertical-align: middle;
 color: var(--title-color);
-
 }
 
 .main-course-text{
@@ -507,17 +520,8 @@ font-size: 18px;
 line-height: 22px;
 letter-spacing: 0%;
 color: var(--text-color);
-width: 800px;
-/* height: 245px; */
-text-align: justify;
-
-
-
-
 
 }
-
-
 
 .about-title{
   font-family: var(--font);
@@ -530,36 +534,6 @@ vertical-align: middle;
 color: var(--title-color);
 
 }
-
-.course-card-py{
-  width: 1284px;
-  height: 287px;
-  position: relative;
-  left: -50px;
-
-}
-
-.course-card-py-inner{
-  margin-top:50px;
-  margin-bottom: 50px;
-  width: 1366px;
-  
-}
-
-.syllabus{
-  margin-top: 50px;
-}
-
-
-.rating-section{
-  width:467px;
-  font-size: 16px;
-}
-/* .course-card-py .course-card{
-  height: 285px;
-  width: 285px;
-} */
-
 
   .skill-box {
     border: 0.5px solid #363942;
@@ -637,41 +611,11 @@ color: var(--primary-color);
   background: #fff;
 }
 
-.top-card{
- background: #FDF9FF;
-    height: 840px;
-    width: 470px;
-    padding: 10px 10px;
-    border-radius: 23px;
-}
-
-.top-card-with-review{
-  position: relative;
-  left:88px;
-}
-
-
-.card-add-to-cart{
- 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.card-add-to-cart button{
-    width: 417px;
- height: 50px; 
- margin: 10px;
- margin-top: 20px;
- padding: 20px;
-}
-
 /* Instructor Card */
 .instructor-card {
-  /* max-width: 700px; */
+ 
   border: 1px solid var(--primary-color);
-  /* border-radius: 6px; */
+
   background: var(--light-color);
 }
 
@@ -679,10 +623,12 @@ color: var(--primary-color);
   width: 149px;
   height: 149px;
   border-radius: 50%;
- border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   object-fit: cover;
+
   top:-25%;
-  left:44%;
+  left:45%;
+  transform: translateX(-50);
 }
 
 .role-badge {
@@ -721,15 +667,19 @@ color: #6E7380;
 
 }
 
-.see-more{
-  font-family: var(--font);
+.more ,
+.see-more,
+.download-certificate
+{
+font-family: var(--font);
 font-weight: 400;
 font-size: 16px;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
-vertical-align: middle;
-color: var(--primary-color);
+/* vertical-align: middle; */
+/* color: var(--primary-color); */
+text-decoration: none;
 
 }
 

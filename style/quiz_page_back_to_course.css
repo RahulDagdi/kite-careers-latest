@@ -7,9 +7,21 @@ body {
   background-color: #7E00A7 !important;
 }
 
-.text-purple {
+.text-purple  {
   color: #7E00A7 !important;
 }
+.text-purple1  {
+  color: #7E00A7 !important;
+}
+
+.your-score-text{
+font-weight: 700;
+color: #363942;
+font-size: 19px;
+
+
+}
+
 
 .image_svg{
   width: 21px;
@@ -33,6 +45,14 @@ body {
   border-radius: 10px;
 
 }
+.certificate-and-share{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:300px;
+  height: 42px;
+
+}
 
 .Certificate_btn span {
   font-size: 16px;
@@ -41,18 +61,30 @@ body {
   width: 116px;
   height: 23px;
   position: relative;
+  
 
+}
+
+
+
+
+.text-muted{
+  font-weight: 400;
 }
 
 /* Summary Card */
 .summary-card {
   border-radius: 10px;
   position: relative;
-  right: 75px;
+  /* left: 75px; */
   width: 384px;
+  height: 649px;
+  margin-left: -40px;
 
 
 }
+
+
 
 .summary-card-inner {
   border-radius: 10px;
@@ -76,6 +108,12 @@ body {
   position: relative;
   top: 10px;
 
+}
+
+.your-score-1{
+      position: relative;
+    top: -8px;
+    margin-bottom: 5px;
 }
 
 
@@ -140,6 +178,8 @@ body {
 
 .chapter_btn_div{
   width: 384px;
+  margin-left: 35px; 
+  margin-bottom: 20px;
 
 }
 
@@ -163,11 +203,13 @@ body {
 
 /* Question Cards */
 .question-card {
+  width: 801px;
   border-radius: 14px;
   border: 1px solid #ddd;
   background: #FFFFFF;
+  /* margin-top: 20px; */
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 
@@ -187,7 +229,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   position: relative;
-  left: 30px;
+  left: 50px;
 
 
 }
@@ -327,9 +369,9 @@ body {
   background-color: #fff;
   margin-right: 100px;
   border-radius: 10px;
-  width: 100%;
+  width: 801px;
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 
@@ -349,7 +391,7 @@ body {
   /* left aligned */
   padding-top: 30px;
   position: relative;
-  left: 80px;
+  right: 100px;
 }
 
 .continue-section p {
@@ -383,7 +425,7 @@ body {
   font-size: 14px;
   border-radius: 6px;
   background: #7E00A7;
-  width: 100%;
+  width: 801px;
   height: 42px;
   margin-right: 200px;
   border-radius: 10px;
@@ -436,7 +478,7 @@ body {
 
   /* Question text alignment */
   ._question {
-    left: 0;
+    left: 20px;
   }
 }
 
@@ -496,7 +538,7 @@ body {
   
 
   ._question {
-    left: 0;
+    left: 20;
     font-size: 14px;
   }
 
@@ -511,6 +553,8 @@ body {
     height: 26px;
     font-size: 14px;
   }
+
+
 
   /* Details section */
   .details {
