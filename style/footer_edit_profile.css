@@ -3,7 +3,7 @@
 /* FOOTER BACKGROUND */
 
 .footer-section {
-height: 414px;
+/* height: 414px; */
   background-color: #FCF5FF;
 
   position: relative;
@@ -128,7 +128,7 @@ position: relative;
   background-color: #7E00A7;
 
   font-size: 0.9rem;
-  margin: 0;
+  /* margin: 0; */
 
 }
 
