@@ -197,7 +197,7 @@
   background-color: #FCF5FF;
   position: relative;
   overflow: hidden;
-  padding: 40px 15px;
+  /* padding: 40px 15px; */
 }
 
 .footer-col {
