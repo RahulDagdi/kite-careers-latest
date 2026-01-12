@@ -4,12 +4,15 @@ body {
   font-family: 'Istok Web', sans-serif;
 }
 
-   
-
-
+/* .footer-section{
+    padding-left:150px ;
+  padding-right:150px ;
+} */
 /* Main Wrapper */
 .course-resources-wrapper {
   padding-bottom: 7rem;
+  /* padding-left:150px ;
+  padding-right:150px ; */
 }
 
 /* Header */

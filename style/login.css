@@ -58,7 +58,7 @@ body {
   border-radius: 10px;
   border: 1px solid var(--border-color);
   margin-left: 85px;
-  margin-right: 300px;
+  margin-right: 310px;
 }
 .search-bar input {
   width: 100%;
@@ -96,22 +96,23 @@ body {
   top: -100px;
   left: 20px;
 }
-.students {
-  width: 799px;
-  height: 463px;
-  
-}
+
 
 /* ================= AUTH BOX ================= */
 .auth-box {
   background: var(--light-color);
   border-radius: 10px;
+  padding: 80px 20px 40px;
   width: 463px;
   height: 611px;
+  margin-top: 26px;
   margin-bottom: 30px;
   position: relative;
-  right: 40px;
+  /* left: 25px; */
+  right: 50px;
 }
+
+
 .auth-title {
   font-size: 24px;
   font-weight: 700;
@@ -215,15 +216,7 @@ body {
 }
 
 /* ================= AUTH BOX ================= */
-.auth-box {
-  background: var(--light-color);
-  border-radius: 10px;
-  padding: 80px 20px 40px;
-  width: 463px;
-  height: 611px;
-  margin-top: 20px;
-  /* margin-left: 20px; */
-}
+
 .auth-title {
   font-size: 24px;
   font-weight: 700;
