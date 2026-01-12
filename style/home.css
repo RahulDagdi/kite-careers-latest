@@ -215,9 +215,34 @@ body {
 }    */
 
 /* Hero section background same as navbar */
+.hero-img-wrapper {
+  /* width: 814px; */
+  height: 409px;
+  /* overflow: hidden; */
+}
+
+@media (max-width:1400px) {
+  .hero-img-wrapper{
+    height: 352px;
+  }
+}
+@media (max-width:1200px) {
+  .hero-img-wrapper{
+    height: 294px;
+  }
+}
+
+
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Keeps aspect ratio while filling the box */
+}
+
 .hero-section {
   background-color: #FBF2FF;
-  min-height: 600px;
+  min-height: 500px;
   overflow: visible;
 
 }
@@ -290,8 +315,6 @@ body {
 
 
 /* RIGHT HERO - Circles container */
-
-
 .circle-wrapper {
   width: 265px;
   height: 263px;
@@ -301,12 +324,11 @@ body {
   margin-right: 0.6rem;
   border: 1px solid black;
 }
-
-
-
 .circle-1 {
   z-index: 2;
   background-image: url("../img/Home/img.jpg");
+  bottom: 37px;
+  right: -12px;
 }
 
 .circle-2 {
@@ -316,68 +338,65 @@ body {
   background-image: url("../img/Home/Ellipse\ 5.png ");
   box-shadow: 2px 20px 6px rgb(108 47 219 / 0.3);
 }
-
-
-
 /* SEMI-ELLIPSE BASE STYLE */
 .ellipse {
     position: absolute;
-    border: 1px solid white;
+    /* border: 1px solid white;
     box-shadow: 0 10px 25px #6075C2A6;
     backdrop-filter: blur(10px);
     color: white;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
-
-
 
 /* Left ellipse (on left circle) */
 .ellipse-left {
   width: 239px;
   height: 130px;
-
-  left: -21%;
-  top: 43%;
+  /* background: linear-gradient(90deg, #7E00A7,#FFFFFFFF );
+  mask-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100% ); */
+  left: -19%;
+  top: 32%;
   transform: translateY(-50%);
-  border-radius: 71px ;
+  /* border-radius: 71px ; */
   z-index: 10;
 }
 .ellipse-mask{
-  background: linear-gradient(90deg, #7E00A7,#FFFFFFFF );
-  mask-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100% );
-
-
+  position: absolute;
+  left:20%;
+ 
 }
-
-
-
 /* Right ellipse (on right circle) */
 .ellipse-right {
     width: 263px;
     height: 130px;
-    left: 220px;
-    background: linear-gradient(90deg,#FFFFFFFF, #7E00A7 );
-    
-    opacity: 0.9;
-    top: 350px;
+    left: 26%;
+    /* background: linear-gradient(90deg,#FFFFFFFF, #7E00A7 );  
+    opacity: 0.9;*/
+    top: 86%;
     transform: translateY(-50%);
-    border-radius:71px;
+    /* border-radius:71px; */
     z-index: 10;
 }
 
 /* Text styles */ 
-.big { 
+.big-2x { 
   font-size: 77px; 
   font-weight: 600;
-   line-height: 100%; 
+  line-height: 100%; 
+  color: white;
   } 
 .text-small { 
   font-size: 12px;
-   font-weight: 700;
-    color: #000; 
+  font-weight: 700;
+  color: #000; 
+  }
+  .big-88{
+    font-size: 96px;
+    font-weight: 600;
+    color: white;
   }
 
 /* Small faint decorative circle */
@@ -387,13 +406,13 @@ body {
     border-radius: 50%;
     background: #DBC0E57D;
     position: absolute;
-    top: 200px;
-    left: 162px;
+    top: 44%;
+    left: 23%;
     z-index: 11;
     
 }
+/* Right hero circles container complete above */
 
-/* ---------- RESPONSIVE FIXES FOR RIGHT HERO ---------- */
 
 
 
@@ -409,16 +428,15 @@ body {
 /* Cards */
 .stats-card {
     /* width: 200px; */
-    min-height: 200px;
-    max-width: 227px;
+    height: 242px;
     background: linear-gradient(180deg, #ffffff 0%, #F5DEFF 100%);
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 10px 20px rgba(126, 0, 167, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: 0.3s ease;
 }
 
@@ -426,7 +444,7 @@ body {
 /* Center card only raised on large screens */
 @media (min-width: 992px) {  /* lg breakpoint */
     .center-card {
-        transform: translateY(-30%);
+        transform: translateY(-42%);
     }
 }
 
@@ -439,7 +457,7 @@ body {
 
 /* Stat Numbers */
 .stats-number {
-    font-size: 2rem;
+    font-size: 3.25rem;
     font-weight: 700;
     color: #7E00A7;
     margin-bottom: 10px;
@@ -447,8 +465,9 @@ body {
 
 /* Stat Text */
 .stats-text {
-    font-size: 0.95rem;
-    color: #6A6F73;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
     
 }
 
@@ -465,9 +484,9 @@ body {
     position: absolute;
     width: 80%;
     height: 80%;
-    background: radial-gradient(circle, #7E00A7 0%, #ffffff 75%);
+    background: radial-gradient(circle, #7E00A7 30%, #ffffff 75%);
     border-radius: 50%;
-    filter: blur(25px);
+    filter: blur(80px);
     z-index: 1;
 }
 
