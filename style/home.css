@@ -1177,19 +1177,35 @@ position: absolute;
   color: #454C63;
 }
 
+  .tricks-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.tricks-img {
+  position: absolute;
+  left: -7%;
+  bottom: -34%; /* adjust as needed */
+  /* width: 120px;  */
+}
 .latestpara{
   font-weight:400;
   font-size: 1.5rem;
   color:#7E00A7 ;
 }
+
 .latest-goal{
   font-weight:400 ;
-  font-size: 2.4rem;
+  font-size: 2.375rem;
 }
 .span-text{
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2.375rem;
   color:#7E00A7 ;
+}
+.feedbak-icon h6{
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 
 /* card section-10 */
@@ -1216,7 +1232,7 @@ position: absolute;
 }
 .Education-date{
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #959BAC;
 }
 .readbtns{
@@ -1224,8 +1240,11 @@ position: absolute;
    color: #7E00A7;
    border-radius: 6px;
    font-weight: 500;
-   font-size: 0.99rem;
+   font-size: 0.93rem;
   width: fit-content;
+  padding-left:1rem !important;
+  padding-right: 1rem !important;
+  margin-top: 0.5rem;
 }
 
  .Teampara{
