@@ -1,0 +1,321 @@
+/* ================= ROOT ================= */
+:root {
+  --primary: #7e00a7;
+  --primary-dark: #5f007f;
+  --light-bg: #faf2ff;
+  --text-dark: #1f1f1f;
+  --text-muted: #6b7280;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+}
+
+/* ================= GLOBAL ================= */
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-dark);
+  background: linear-gradient(to bottom, #ffffff, #F5DCFE);
+  width: auto;
+  height: auto;
+
+}
+
+.section-padding {
+  padding: 70px 0;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+/* ================= HERO ================= */
+.about-hero {
+  /* position: relative;
+  height: 360px; */
+
+    position: relative;
+  width: 100%;
+  min-height: 320px;         
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.hero-bg {
+  /* width: 1284px;
+  height: 600px;
+  object-fit: cover; */
+
+   width: 100%;
+  /* height: 60%; */
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+
+}
+
+.hero-content {
+   
+  /* position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+
+   position: absolute;
+  inset: 0;                   /* top:0 right:0 bottom:0 left:0 */
+  display: flex;
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+  z-index: 2;
+  pointer-events: none;       /* optional */
+
+}
+.hero-content-img{
+     /* width: 512px;
+    height: 114px; */
+      max-width: 30%;
+  height: auto;
+}
+
+.hero-content h1 {
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-size: 28px;
+}
+
+
+
+/* ================= OUR STORY ================= */
+.our-story p {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.our-story-img{
+    width: 503px;
+    height: 372px;
+}
+
+/* ================= TEAM ================= */
+.team-section {
+  /* background: var(--light-bg); */
+}
+
+.team-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+}
+
+.team-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.team-card h6 {
+  margin: 6px 0 2px;
+  font-weight: 600;
+}
+
+.team-card span {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* ================= PURPOSE ================= */
+
+.purpose-card-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purpose-card {
+  /* background: #fff; */
+  border-radius: var(--radius-md);
+  padding: 28px 20px;
+  /* box-shadow: 0 8px 22px rgba(0,0,0,0.08); */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.purpose-card img {
+  width: 42px;
+  margin-bottom: 12px;
+}
+
+.purpose-card p {
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+  top: -3px;
+}
+
+/* ================= TESTIMONIAL ================= */
+.testimonial-section {
+  background: var(--light-bg);
+}
+
+.testimonial-card {
+  max-width: 600px;
+  margin: 30px auto 0;
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 35px 30px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.testimonial-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-card p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.testimonial-card h6 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* <!-- ================= Company ================= --> */
+
+
+.company-section{
+    width: 100%;
+    /* height:100%; */
+    background:#ffffff;
+    margin-bottom: 50px;
+}
+
+/* <!-- ================= BECOME A INSTRUCTOR  ================= --> */
+
+.instructor-section {
+  background: #7E00A7;         /* purple background */
+  margin-bottom: 50px;
+  /* border-radius: 10px; */
+  /* width: 1400px; */
+}
+.small{
+  font-weight:400 ;
+  font-size: 1.4rem;
+}
+.large{
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+/* BUTTON */
+.for-more-btn {
+  background: white;
+  color: #7E00A7;
+  padding: 10px 70px;
+  font-weight: 400;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 7px 12px 28px #000000;
+  z-index: 3;
+  position: relative;
+}
+
+/* ARROW IMAGE POSITION */
+.arrow-img {
+  position: absolute;
+  left: -25%;        /* pushes arrow left of button */
+  top: 50%;
+  transform: translateY(-50%);
+  
+  z-index: 1;
+  
+}
+
+
+/* ================= CTA ================= */
+.cta-section {
+  background: linear-gradient(135deg, var(--primary), #b84ce3);
+  padding: 70px 0;
+}
+
+.cta-section h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cta-section ul {
+  padding-left: 18px;
+}
+
+.cta-section li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+/* ================= CONTACT ================= */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  background: var(--primary);
+  color: #fff;
+  padding: 12px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: var(--primary-dark);
+}
+
+/* ================= FOOTER ================= */
+.site-footer {
+  background: var(--primary);
+  color: #fff;
+  padding: 18px 0;
+  font-size: 14px;
+}

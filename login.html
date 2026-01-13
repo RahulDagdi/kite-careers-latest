@@ -8,9 +8,10 @@
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/btn_control.css">
   <link rel="stylesheet" href="style/footer.css">
   <link rel="stylesheet" href="style/login_responsive.css">
-    <link rel="stylesheet" href="style/login.css">
+  <link rel="stylesheet" href="style/login.css">
   </link>
   <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
 
@@ -82,7 +83,7 @@
       <div class="collapse navbar-collapse" id="navMenu">
 
         <!-- SEARCH BAR (CENTER) -->
-       
+
         <form class=" search-bar   d-lg-flex align-items-center " style="min-width: 35% !important; ;">
           <img src="img/icon/search-svgrepo-com (1) 1.svg" height="19px" width="19px" class="m-2"> <input type="text"
             placeholder="Search for anything" class="border-0  d-flex align-items-center second-input ">
@@ -92,11 +93,11 @@
         <ul class="navbar-nav  align-items-center gap-1">
 
 
-          <li class="nav-item"><a class="nav-link px-0" href="checkout.html"><img src="img/icon/shopping-cart-svgrepo-com 1.svg"
-                alt="Cart"></a></li>
+          <li class="nav-item"><a class="nav-link px-0" href="checkout.html"><img
+                src="img/icon/shopping-cart-svgrepo-com 1.svg" alt="Cart"></a></li>
 
           <li class="nav-item">
-            <a class="btn  btn-purple btn-log-in btns " href="login.html">Log in</a>
+            <a class="btn  btn-log-in btn-control " href="login.html">Log in</a>
           </li>
 
         </ul>
@@ -119,7 +120,7 @@
         </div>
 
         <div class="col-md-8">
-          <img src="img/students/Group 375.png" alt="students" class="students">      
+          <img src="img/students/Group 375.png" alt="students" class="students">
         </div>
 
       </div>
@@ -130,7 +131,7 @@
           <h5 class="text-center  auth-title">Log in to continue your<br>learning journey</h5>
 
           <!-- Phone Input -->
-      
+
           <div class="mt-5">
 
             <div class="form-control d-flex align-items-center ">
@@ -141,7 +142,7 @@
 
 
             <!-- OTP Inputs -->
-           
+
             <div class="d-flex justify-content-between mt-5 ">
               <input type="text" maxlength="1" class="otp-input" placeholder="1">
               <input type="text" maxlength="1" class="otp-input" placeholder="7">
@@ -150,15 +151,29 @@
               <input type="text" maxlength="1" class="otp-input">
               <input type="text" maxlength="1" class="otp-input">
             </div>
-            <div class="mb-5 enter-otp-text">Enter a OTP</div>
+            <div class="mb-5 enter-otp-text">
+
+              Enter a OTP
+             
+              <div class="resend-div text-center mt-3">
+  <span class="">Didn’t receive the OTP?</span>
+  <span class=" resend-otp">
+    Resend OTP
+  </span>
+ 
+</div>
+            </div>
           </div>
 
 
-          <a href="register.html">
-            <button class="btn btn-purple proceed-btn w-100  ">Proceed</button>
-          </a>
+         <div>
+  <a href="register.html">
+    <button class="btn btn-purple btn-control w-100">
+      Proceed
+    </button>
+  </a>
+</div>
 
-    
         </div>
       </div>
 
@@ -166,94 +181,97 @@
   </div>
 
 
-     <!-- footer section-14 -->
+  <!-- footer section-14 -->
 
-     <footer class="footer-section">
-  <div class="container py-5">
-    <div class="row g-4 position-relative ">
+  <footer class="footer-section">
+    <div class="container py-5">
+      <div class="row g-4 position-relative ">
 
-      <!-- COLUMN 1 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-        <!-- Low opacity image -->
-        <img src="img/common/260-2608530_spoken-english-clipart 2.png"
-          class="footer-bg-img top" alt="" style="top: -32%;right: -4%;">
+        <!-- COLUMN 1 -->
+        <div class="col-12 col-md-3 position-relative footer-col">
+          <!-- Low opacity image -->
+          <img src="img/common/260-2608530_spoken-english-clipart 2.png" class="footer-bg-img top" alt=""
+            style="top: -32%;right: -4%;">
 
-        <img src="img/kite-icons/common/logo careers 1.svg" class="mb-3" alt="Kitecareers">
+          <img src="img/kite-icons/common/logo careers 1.svg" class="mb-3" alt="Kitecareers">
 
-        <h6 class="fw-text">Contact us</h6>
+          <h6 class="fw-text">Contact us</h6>
 
-        <div class="d-flex center align-items-center gap-2 mb-2">
-          <span class="bg p-1 rounded-circle">
-            <img src="img/kite-icons/Home/phone-call-svgrepo-com 1.png" alt="">
-          </span>
-          <span class="bg-text">+91 75867465784</span> 
+          <div class="d-flex center align-items-center gap-2 mb-2">
+            <span class="bg p-1 rounded-circle">
+              <img src="img/kite-icons/Home/phone-call-svgrepo-com 1.png" alt="">
+            </span>
+            <span class="bg-text">+91 75867465784</span>
+          </div>
+
+          <div class="d-flex center align-items-center gap-2">
+            <span class="bg p-1 rounded-circle">
+              <img src="img/kite-icons/Home/Mask group (2).png" alt="">
+            </span>
+            <span class="bg-text">kitecareers@gmail.com</span>
+          </div>
+          <!-- Low opacity image -->
+          <img src="img/common/Outstanding-Characteristic 2.png" class="footer-bg-img bottom" alt=""
+            style="right: 18%; bottom: -22%;">
         </div>
 
-        <div class="d-flex center align-items-center gap-2">
-          <span class="bg p-1 rounded-circle">
-            <img src="img/kite-icons/Home/Mask group (2).png" alt="">
-          </span>
-          <span class="bg-text">kitecareers@gmail.com</span>
+        <!-- COLUMN 2 -->
+        <div class="col-12 col-md-3 position-relative footer-col">
+          <!-- Low opacity image -->
+          <img src="img/kite-icons/Home/pngtree-online-learning-education-element-png-image_11596785 2.png"
+            class="footer-bg-img top" alt="" style="top: -44%; right: 6%;">
+          <h6 class="fw-text">About</h6>
+          <ul class="footer-list bg-text ps-4">
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Blog</li>
+            <li>Teach on Kitecareers</li>
+            <li>Help and Support</li>
+          </ul>
+          <img src="img/kite-icons/Home/67a4ce91de98d 2.png" class="footer-bg-img bottom" alt=""
+            style="right: -5%; bottom: -28%;">
         </div>
-        <!-- Low opacity image -->
-        <img src="img/common/Outstanding-Characteristic 2.png"
-             class="footer-bg-img bottom" alt="" style="right: 18%; bottom: -22%;">
-      </div>
 
-      <!-- COLUMN 2 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-           <!-- Low opacity image -->
-        <img src="img/kite-icons/Home/pngtree-online-learning-education-element-png-image_11596785 2.png"
-          class="footer-bg-img top" alt="" style="top: -44%; right: 6%;">
-        <h6 class="fw-text">About</h6>
-        <ul class="footer-list bg-text ps-4">
-          <li>About us</li>
-          <li>Contact us</li>
-          <li>Blog</li>
-          <li>Teach on Kitecareers</li>
-          <li>Help and Support</li>
-        </ul>
-         <img src="img/kite-icons/Home/67a4ce91de98d 2.png"
-             class="footer-bg-img bottom" alt=""  style="right: -5%; bottom: -28%;">
-      </div>
+        <!-- COLUMN 3 -->
+        <div class="col-12 col-md-3 position-relative footer-col">
+          <img
+            src="img/kite-icons/Home/png-clipart-bus-and-ruler-illustration-student-light-educational-technology-learning-element-bulb-text-university 2.png"
+            class="footer-bg-img top" alt="" style="top: -44%; right: -23%;">
+          <h6 class="fw-text">Legal & Accessibility</h6>
+          <ul class="footer-list bg-text ps-4">
+            <li>Accessibility statement</li>
+            <li>Privacy policy</li>
+            <li>Sitemap</li>
+            <li>Terms & Conditions</li>
+          </ul>
+          <img
+            src="img/kite-icons/Home/100-1001965_outstanding-technology-clipart-png-clipartxtras-teaching-and-learning-with-technology-proceedings 1.png"
+            class="footer-bg-img bottom" alt="" style="right: -25%; bottom: -24%;">
 
-      <!-- COLUMN 3 -->
-      <div class="col-12 col-md-3 position-relative footer-col">
-        <img src="img/kite-icons/Home/png-clipart-bus-and-ruler-illustration-student-light-educational-technology-learning-element-bulb-text-university 2.png" 
-        class="footer-bg-img top" alt=""  style="top: -44%; right: -23%;">
-        <h6 class="fw-text">Legal & Accessibility</h6>
-        <ul class="footer-list bg-text ps-4">
-          <li>Accessibility statement</li>
-          <li>Privacy policy</li>
-          <li>Sitemap</li>
-          <li>Terms & Conditions</li>
-        </ul>
-        <img src="img/kite-icons/Home/100-1001965_outstanding-technology-clipart-png-clipartxtras-teaching-and-learning-with-technology-proceedings 1.png"
-             class="footer-bg-img bottom" alt="" style="right: -25%; bottom: -24%;">
-             
-      </div>
-     
+        </div>
 
-      <!-- COLUMN 4 -->
-      <div class="col-12 col-md-3 position-relative footer-col text-lg-end">
-      
-        <h6 class="fw-text">Download the App</h6>
-        <img src="img/common/Google 2.png" class="img-fluid mt-2  ms-lg-5" alt="Google Play">
-         <img src="img/kite-icons/Home/png-transparent-student-higher-education-study-skills-learning-products-people-logo-teacher 2.png"
-             class="footer-bg-img bottom" alt=""  style="right: -2%;bottom: -23%;">
-      </div>
+
+        <!-- COLUMN 4 -->
+        <div class="col-12 col-md-3 position-relative footer-col text-lg-end">
+
+          <h6 class="fw-text">Download the App</h6>
+          <img src="img/common/Google 2.png" class="img-fluid mt-2  ms-lg-5" alt="Google Play">
+          <img
+            src="img/kite-icons/Home/png-transparent-student-higher-education-study-skills-learning-products-people-logo-teacher 2.png"
+            class="footer-bg-img bottom" alt="" style="right: -2%;bottom: -23%;">
+        </div>
       </div>
 
     </div>
-  </div>
+    </div>
 
-  <!-- COPYRIGHT BAR -->
-  <div class="copyright-bar text-white bg-text py-3 ">
-   <div class="container">
-     © 2025 Kitecareers, Inc.
-   </div>
-  </div>
-</footer>
+    <!-- COPYRIGHT BAR -->
+    <div class="copyright-bar text-white bg-text py-3 ">
+      <div class="container">
+        © 2025 Kitecareers, Inc.
+      </div>
+    </div>
+  </footer>
 
 </body>
 

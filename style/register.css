@@ -34,29 +34,20 @@ body {
   padding: 7px 36px;
 }
 .btn-purple {
-  background-color: var(--primary-color);
-  color: white;
   border-radius: 6px;
   font-weight: 400;
 }
 .btn-outline-purple {
   border-radius: 6px;
   font-weight: 500;
-  /* color: var(--primary-color); */
   width: 248px;
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-confirm:hover{
-      background: #454C63;
-  color: white;
-}
-.btn-outline-purple:hover {
-  background: #454C63;
-  color: white;
-}
+
+
 
 /* Search bar */
 .search-bar {
@@ -198,6 +189,7 @@ body {
 .check-box {
   margin-top: 3px;
 }
+
 .btn-confirm {
   width: 427px;
   position: relative;
