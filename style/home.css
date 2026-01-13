@@ -498,259 +498,50 @@ body {
 }
 
 /* cards section-3 */
- .view-all-btn { 
-    background: #7E00A7;
-    border: none;
-    color: white;
+.continuewatching-head{
     font-weight: 700;
-    font-size: 16px;
-    /* max-width: 190px;
-    max-height: 50px; */
-    border-radius: 10px;
-    padding: 12px 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-  /* Cards container */
-  .tutor-cards {
-    display: flex;
-
-  }
-  /* Each card */
-  .tutor-card {
-    background: #fff;
-    border: 1.5px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 8px 15px rgba(126, 0, 167, 0.15);
-    /* max-width: 398px;
-    max-height: 470px; */
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  /* Image */
-  .tutor-image {
-    width: 100%;
-    max-height: 316px;
-    padding: 10px ;
-    border-radius: 23px;
-    object-fit: cover;
-   
-  }
-  /* Card body */
-  .card-body {
-    padding: 0 8px 16px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  /* Name */
-  .tutor-name {
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #454C63;
-  }
-  /* Rating row */
-  .rating-row { 
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 8px;            
-  }
-  .rating-star {
-    color: #444;
-    border-right: 0.5px solid #C0C8E5;
-    padding-right: 7px;
-    font-weight: 700;
-    font-size: 0.9rem;
-   
-  }
-  .rating-star i{
-    color: #FAC310;
-  }
-  /* Sessions count text */
-  .sessions-text {
-    color: #444;
-    font-size: 0.9rem;
-    font-weight: 700;
-    line-height: 11px;
-  }
- 
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* pushes top and bottom apart */
-    flex-grow: 1; /* ensures it takes remaining space in card-body */
+    font-size: 1.938rem;
+    color: #000000;
 }
- /* Horizontal divider */
-  .divider {
-    border-top: 1px solid #ddd;
-    margin-bottom: 16px;
-  }
-  
-  
-  /* Bottom info + button container */
-  .bottom-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .rated-for {
-    font-size: 1rem;
+.continuewatching-para{
     font-weight: 400;
-    color: #454C63;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .rated-for img{
-   max-width: 1rem;
-    max-height: 1.5rem;
-    
-  }
-  /* Wrapper for the icon and its background */
-.icon-wrapper {
-    position: relative;
-    width: 1.5rem;  /* adjust to desired size */
-    height: 1.9rem;
-    background-image: url('../icons/Home/Group\ 45.png'); /* your background image */
-    background-size: cover;
-    background-position: top;
-}
-
-/* Icon on top of the background */
-.icon-wrapper img {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* center the icon */
-    max-width: 0.7rem;   /* adjust icon size */
-    max-height: 0.7rem;
-}
-
-
-  .btn-business {
-    background-color: #7E00A7;
-    border: none;
-    color: white;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px ;
-    border-radius: 10px;
-    font-size: 1rem;
-    max-width: 171px;
-    max-height: 39px;
-  
-  }
-  .btn-business:hover {
-    background-color: #5c0073;
-  }
-  
-.owl-dots{
-  margin-top: 55px;
-}  
-.owl-dots .owl-dot.active span {
-    background: #7E00A7 !important;
-}
-
-
-.owl-nav button span{
-  background: white !important;
-  border: none;
-  border-radius: 50% !important;
-  box-shadow: 0px 2px 8px #C0C9E5;
-  /* width: 50px;
-  height: 50px; */
-  padding: 10px !important;
-  pointer-events: all;   /* buttons clickable rahein */
-
-}
-.owl-prev { 
-   position: absolute;
-   left: 458px;   /* image ke left side */
-   bottom: -2px;
- 
-}
-
-
-.owl-next {
-    position: absolute;
-    right: 458px;  /* image ke right side */
-    bottom: -2px;
-    
-}
-@media (max-width: 1400px) {
-  .owl-prev { left: 200px; }
-  .owl-next { right: 200px; }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-  .owl-nav {
-    display: none;
-  }
-}
-
-.owl-nav button span {
-  
-  font-size: 20px !important;
-  font-weight: 20px !important;
-  color: #454C63;
- 
-  
-}
-
-
-
-  /* Heading and subheading */
-  .learning-goal {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 2.3rem;
-  }
-  .learning-subtext {
-    text-align: center;
-    max-width: 650px;
-    margin: 0 auto 40px;
+    font-size: 1.375rem;
     color: #585858;
-    font-size: 1rem;
-    font-weight: 400;
-  }
+}
+.video-wrapper {
+  position: relative;
+}
+.video-img{
+  height: 413px;
+}
+ 
+.play-btns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  opacity: 0.5;
+  color: #7E00A7;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 27px;
+}
 
-  /* Goal selection container */
-  .goal-selection {
-    background: #FDF9FF;
-    border-radius: 15px;
-    width: 100%;
-    padding: 16px;
-  }
-  .goal-btn {
-    border-radius: 10px;
-    border: 1px solid #7E00A7;
-    font-weight: 400;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #FFFFFF;
-    color:#454C63;
-    text-align: center;
-    padding: 16px 8px;
-  }
-  .goal-btn.active,
-  .goal-btn:hover {
-    background-color: #7E00A7;
-    color: #fff;
-  }
-
-
-  /* Course section-4 */
+/* card section-4 */
+.whatyoulearn-head{
+  font-weight: 700;
+  font-size: 2.125rem;
+  color: #000;
+}
+.whatyoulearn-para{
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #585858;
+}
   .course-card{
     border: 1px solid #7E00A7;
     border-radius: 14px;
@@ -760,7 +551,7 @@ body {
   .course-image{
     width: 100%;
     /* height: 216px; */
-    padding: 10px;
+    padding: 11px;
     border-radius: 14px;
     object-fit: cover;
   }
@@ -768,25 +559,23 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    
   }
+
   .top-row{
      padding: 0 15px 10px;
   }
   .course-name{
     font-weight: 700;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
     color: #454C63;
   }
   .course-star{
     color: #454C63;
-    padding-right: 7px;
     font-weight: 700;
     font-size: 1.1rem;
   }
-  .fa-star{
-    color: #FAC310;
-  }
+ 
 
   .course-divider{
     border-top: 1px solid #7E00A7;
@@ -796,7 +585,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px 10px;
+    padding: 0 15px 10px 0;
   }
     
   .course-rate {
@@ -813,14 +602,140 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    padding: 6px 35px;
+    font-size: 1.1rem;
+    height: 44px;
+    padding: 0.3em 2.6em;
+    border-radius: 10px;
+   
+  }
+  .coursebtn-business:hover {
+    background-color: #7E00A7;
+  }
+
+
+.course-para{
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #454C63;
+}
+
+
+/* section-5 */
+  /* Heading and subheading */
+  .learning-goal {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.375rem;
+  }
+  .learning-subtext {
+    text-align: center;
+    max-width: 650px;
+    /* margin: 0 auto 40px; */
+    color: #585858;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* Goal selection container */
+  .goal-selection {
+    background: #FDF9FF;
+    border-radius: 13px;
+    width: 100%;
+    padding: 1.875rem;
+  }
+  .goal-btn {
+    border-radius: 10px;
+    border: 1px solid #7E00A7;
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #FFFFFF;
+    color:#454C63;
+    text-align: center;
+    padding: 15px 8px;
+  }
+  .goal-btn.active,
+  .goal-btn:hover {
+    background-color: #7E00A7;
+    color: #fff;
+  }
+
+
+  /* Course section-4 */
+  .session-card{
+    border: 1px solid #7E00A7;
+    border-radius: 14px;
+    /* width: 360px;
+    max-height: 396px;  */
+  }
+  .session-image{
+    width: 100%;
+    /* height: 216px; */
+    padding: 7px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  .session-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .sessiontop-row{
+     padding: 0 15px 10px;
+  }
+  .session-name{
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: #454C63;
+  }
+  .session-star{
+    color: #454C63;
+    padding-left:0.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .session-row{
+    margin-bottom: 0.5rem;
+  }
+
+
+  .session-divider{
+    border-top: 1px solid #7E00A7;
+    margin-bottom: 16px; 
+  }
+  .session-bottomrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 10px;
+  }
+    
+  .session-rate {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #7E00A7;
+  }
+
+  .sessionbtn-business {
+    background-color: #7E00A7;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    height: 44px;
+    padding: 0.3em 2.6em ;
     border-radius: 10px;
     /* font-size: 1.1rem;
     width: 128px;
     height: 41px; */
     text-align: center;
   }
-  .coursebtn-business:hover {
+  .sessionbtn-business:hover {
     background-color: #7E00A7;
   }
 
@@ -830,10 +745,19 @@ body {
   /* work section-5 */
   /* TITLE */
 .section-title {
-  font-size: 2.4rem;
+  font-size: 2.375rem;
   font-weight: 700;
-  
+  position: relative; 
+  display: inline-block; 
 }
+
+.howitwork-img {
+  position: absolute;
+  right: 1%;   
+  bottom: -71%; 
+  width: 169px; 
+}
+
   /* SECTION */
 .how-it-works {
   background: #fff;
@@ -845,6 +769,21 @@ body {
   /* height: 591px; */
   object-fit: contain;          /* Ensures clean crop */
   object-position: center; 
+}
+.img-wrap {
+  width: 100%;             /* fill column width */
+  height: 687px;           /* desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;        /* crop excess */
+}
+
+.sideimg {
+  height: 100%;
+  width: 100%;             /* maintain aspect ratio */
+  object-fit: cover; 
+  object-position: bottom;      /* crop if necessary */
 }
 
 
@@ -875,7 +814,7 @@ body {
 
 /* STEP NUMBER */
 .step-number {
-  font-size: 4.4rem;
+  font-size: 4.375rem;
   font-weight: 700;
   color: #DBC0E57D;
  
@@ -899,8 +838,8 @@ body {
 
 
 @media (min-width: 992px) and (max-width: 1200px){
-   .sideimg {
-        height: 605px; /* Reduce the height */
+   .img-wrap {
+        height: 570px; 
        
     }
     .step-item{
@@ -918,8 +857,8 @@ body {
  
 }
 @media (min-width: 1200px) and (max-width: 1400px){
-    .sideimg {
-        height: 580px; /* Reduce the height */
+    .img-wrap {
+        height: 570px; 
        
     }
      .step-item{
@@ -938,10 +877,7 @@ body {
 
 }
 @media (min-width: 1400px) {
-    .sideimg {
-        height: 687px; /* Reduce the height */
-       
-    }
+
     .step-wrapper {
         margin-bottom: 2.5rem !important; /* mb-5 */
     }
@@ -951,26 +887,43 @@ body {
 
 @media (max-width: 992px) {
     /* For tablets or medium-sized screens */
-    .sideimg {
-        height: 350px;
-        display: none; /* Reduce the height */
+    .img-wrap {
+        height:580px;
+      
     } 
+    .sideimg{
+      object-position: center;
+    }
+
 }
 
   
 
-/* section-6 */
+/* section-7 */
 /* SECTION BASE */ 
-    .phone-hero {
-      background-color: #7E00A7;
-      padding: 60px 0 0 45px;
-      background-image: url(../img/Home/Vector\ 2\ \(1\).png);
-       background-position: right top;
-      background-repeat: no-repeat;
-      background-size: contain;
-      
-     
-    }
+.method-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.method-img {
+  position: absolute;
+  left: 1%;
+  bottom: -50%; /* adjust as needed */
+  /* width: 120px;  */
+}
+.phone-hero {
+  background-color: #7E00A7;
+  
+  padding: 60px 0 0 45px;
+  background-image: url(../img/Home/Vector\ 2\ \(1\).png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 11px;
+  
+
+}
   
 
 
@@ -986,9 +939,14 @@ body {
     /* list items on left */
     .features-list {
       list-style: none;
-      padding: 0;
+      padding-top: 5rem;
       margin: 0;
      
+    }
+    @media (max-width:1200px){
+      .features-list{
+        padding-top: 1rem;
+      }
     }
 
     .features-list li {
@@ -1010,126 +968,72 @@ body {
     }
 
     .phone-image {
-      height: 100%;
+      height: 560px;
       box-shadow: -5px -7px 70px #000000;
       border-radius: 28px;
       
     }
 
-    /* card section-6 */
-   
-  .card{
-    border: 1px solid #7E00A7;
-    border-radius: 10px;
- 
-  }
-  .card-header{
-    background-color:#7E00A7 ;
-    color: white;
-    font-weight: 700;
-    font-size: 1.25rem;
-  }
-  .card-img{
-    width: 100%;
-    padding: 10px 20px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  .session-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .viewbtn{
-   border: 1px solid #7E00A7;
-   color: #7E00A7;
-   border-radius: 10px;
-   font-weight: 700;
-   font-size: 1.1rem;
-   padding: 10px 70px !important;
-  }
-
-  .viewbtn:hover {
-    background-color: #7E00A7;
-    color: white;
-
-  }
-
-    .business-goal {
-    font-weight: 400;
-    font-size: 2.5rem;
-  }
-  .business-subtext {
-    color: #585858;
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
+    /* feedback section-8 */
 
 
-  /* card section-7 */
-  .plan-title{
-   font-weight: 700;
-   font-size: 1.26rem;
-   color: #37436B;
-  }
-  .plan-text{
-   font-weight: 400;
-   font-size: 1rem;
-   color: #454C63;
-  }
-  .planbtn{
-   border: 1px solid #7E00A7;
-   color: #7E00A7;
-   border-radius: 6px;
-   font-weight: 700;
-   font-size: 0.9rem;
-   padding: 10px 70px !important;
-  }
-  .planbtn+h5{
-    font-weight: 700;
-    font-size: 1rem;
-    color: #37436B;
-  }
-  .plan-footer{
-    font-weight: 400;
-    font-size: 0.9rem;
-    color: #454C63;
-  }
   .testipara{
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.375rem;
     color: #7E00A7;
   }
+  .feedback-head{
+    font-size: 2.375rem;
+    font-weight: 400;
   
-/* feedback section-8 */
+  }
+  .feedback-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.feedback-img {
+  position: absolute;
+  left: 1%;
+  bottom: -50%; /* adjust as needed */
+  /* width: 120px;  */
+}
+  
 .fa{
   color: #959BAC;
 }
+.card-feedback{
+  border: 1px solid #7E00A7;
+  border-radius: 10px;
+  padding: 3.5rem 1rem 1.5rem;
+}
 .feedback-text{
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #454C63;
-  align-items: center;
-  padding: 12px 28px;
-  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+
+
  
  
 }
 .feedfoot-text{
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #37436B;
 }
 .feedfoot-subtext{
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color:#7E00A7 ;
+  margin-bottom: 0;
 }
 .corner-img {
     position: absolute;
     top: 0;   
-    right: 45px;  
-    width: 70px !important;  
+    right: 12%;  
+    width: 64px !important;  
 }
 
 /* BigImage section-9 */
@@ -1323,6 +1227,41 @@ position: absolute;
    font-size: 0.99rem;
   width: fit-content;
 }
+
+ .Teampara{
+  font-weight: 400;
+  font-size: 1.95rem;
+  color: black;
+ }
+ .team-goal{
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #6E7380;
+ }
+ .team-span{
+  font-weight: 700;
+  font-size: 2.4rem;
+ }
+ .Photo-section{
+  background-color: #FAFAFA;
+ }
+ 
+ .profile-card {
+    text-align: center;
+  }
+
+  .profile-name {
+    font-size: 1.56rem;
+    font-weight: 400;
+    color: #000;
+  }
+
+  /* ROLE */
+  .profile-role {
+    font-weight: 400;
+    font-size: 1.56rem;
+    color: #6E7380;
+  }
 
 
 
