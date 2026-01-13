@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #7E00A7;
+  --light-color: #FCF5FF;
+  --title-color: #000000;
+  --text-color: #959BAC;
+  --border-color: #454C63;
+  --font: 'Istok Web', sans-serif;
+  --theme-light: #DBC0E5;
+}
+
+.btn-control {
+  background:var(--primary-color) !important;
+  color: white;
+  border-radius: 6px;
+  font-weight: 400;
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+/* Hover */
+.btn-control:hover {
+  background: linear-gradient(135deg, #6A0090, #8E1DD1);
+ box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.344),
+    0 6px 6px rgba(0, 0, 0, 0.286);
+  /* Optional: Lift the element slightly */
+  /* transform: translateY(-5px); */
+  /* transform: translateY(-1px); */
+ color:white;
+ font-weight: 800;
+}

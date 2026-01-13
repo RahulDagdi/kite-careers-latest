@@ -31,16 +31,10 @@ body {
 
 /* ================= BUTTON ================= */
 .btn-purple {
-  background: var(--primary-color);
-  color: #fff;
-  border-radius: 6px;
   font-weight: 500;
  
 }
 
-.btn-purple:hover{
-  background:  #a903e0a7;
-}
 
 /* ================= LEFT PROFILE CARD ================= */
 .course-card {
@@ -82,7 +76,7 @@ body {
 
 /* ================= ABOUT ================= */
 .card-about {
-  border: 1px solid var(--border-color);
+ 
   padding: 20px;
   border-radius: 10px;
   background: #fff;
