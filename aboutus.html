@@ -10,11 +10,107 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
+   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/aboutus.css">
   <link rel="stylesheet" href="style/footer.css">
 </head>
 
 <body>
+  <!-- ================= OFFER BAR ================= -->
+    
+
+ <div class="top-offer-bar text-white py-2">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Offer text -->
+        <div class="col-12 col-md-4 col-lg-4 text-center text-lg-start mb-2 mb-lg-0">
+          <span>All course 28% off for <strong class="top-limited">Limited time period</strong></span>
+        </div>
+
+        <!-- Contact info -->
+        <div class="col-12 col-md-4 col-lg-6 d-flex justify-content-center gap-lg-5 gap-2 pe-lg-5 justify-content-md-end  mb-2 mb-lg-0 flex-wrap " ><!-- style="gap: 4.4rem;padding-right: 5rem; " -->
+          <span>
+            <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center me-1">
+              <img src="img/icon/phone.svg" alt="">
+            </div>
+            (970) 262-1413
+          </span>
+
+          <span>
+            <div class="bg-round p-1 rounded-5 d-inline-block   justify-content-center me-1">
+              <img src="img/icon/email2.svg" alt="">
+            </div>
+            kitecareers@gmail.com
+          </span>
+        </div>
+
+
+
+        <!-- Social icons -->
+        <div
+          class="col-12 col-md-4 col-lg-2 d-flex justify-content-center  align-items-center justify-content-lg-end gap-3">
+
+          <img src="img/icon/facebook-svgrepo-com (1) 1.svg" />
+          <img src="img/icon/instagram-svgrepo-com 1.svg" />
+          <img src="img/icon/Vector.svg" />
+          <div class="bg-round d-flex justify-content-center p-1 rounded-5">
+            <img src="img/icon/language.svg" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+ <!-- ================= MAIN NAVBAR ================= -->
+  
+  <nav class="navbar navbar-expand-lg py-4  ">
+    <div class="container ">
+
+      <!-- LOGO -->
+      <a class="navbar-brand " href="#">
+        <img src="img/logo/kite-logo.svg" alt="Brand Logo" class="img-fluid ">
+      </a>
+      <!-- Mobile Toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAV MENU -->
+      <div class="collapse navbar-collapse" id="navMenu">
+
+        <!-- SEARCH BAR (CENTER) -->
+
+        <form class="mx-auto  search-bar   d-lg-flex align-items-center " style="margin-left: 5rem !important;">
+          <img src="img/icon/search-svgrepo-com (1) 1.svg" height="19px" width="19px" class="mx-1"> <input type="text"
+            placeholder="Search for anything" class="second-input ">
+        </form>
+
+        <!-- RIGHT MENU -->
+        <ul class="navbar-nav  align-items-center gap-1">
+          <!-- <li class="nav-item"><a class="nav-link px-0" href="#">Plans and pricing</a></li>
+          <li class="nav-item"><a class="nav-link px-0" href="#">Account</a></li> -->
+          <li class="nav-item"><a class="nav-link px-0" href="#"><img src="img/icon/shopping-cart-svgrepo-com 1.svg"
+                alt="Cart"></a></li>
+
+          <li class="nav-item">
+            <a class="btn btn-outline-purple" href="login.html">Log in</a>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="btn btn-purple btns " href="register.html">Sign up</a>
+          </li> -->
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
 
   <!-- ================= HEADER / HERO ================= -->
   <header class="container about-hero">
@@ -30,9 +126,9 @@
     <!-- ================= OUR STORY ================= -->
     <section class="our-story section-padding">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center ">
 
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <h2 class="section-title">Our Story</h2>
             <p>
               Welcome to Kitecareers, where innovation meets education. Our journey began with a simple yet powerful
@@ -50,7 +146,7 @@
             </p>
           </div>
 
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-5 text-center">
             <img src="img/aboutus/Group 380.png" alt="" class="img-fluid rounded our-story-img">
           </div>
 
@@ -69,7 +165,7 @@
 
         <div class="row mt-4">
 
-          <div class="col-md-4">
+          <div class="col-md-4 mt-sm-3">
             <article class="team-card">
               <img src="img/aboutus/Ellipse 49.svg" alt="">
               <h6>John Smith</h6>
@@ -80,7 +176,7 @@
             </article>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 mt-sm-3">
             <article class="team-card">
               <img src="img/aboutus/Ellipse 49.svg" alt="">
               <h6>John Smith</h6>
@@ -91,7 +187,7 @@
             </article>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 mt-sm-3">
             <article class="team-card">
               <img src="img/aboutus/Ellipse 49.svg" alt="">
               <h6>John Smith</h6>
