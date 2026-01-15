@@ -76,17 +76,16 @@ body {
 }
 
 .btn-purple {
-  background-color: var(--primary-color) !important;
-  color: white;
-  border-radius: 6px;
+
+  
+
   font-weight: 400;
   font-family: var(--font);
 }
 
 .btn-outline-purple {
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color) !important;
-  color: white;
+
+
   border-radius: 6px;
   font-weight: 400;
   font-size: 0.96rem;
@@ -98,10 +97,6 @@ body {
   align-items: center;
 }
 
-.btn-outline-purple:hover {
-  background: #7E00A7;
-  color: white;
-}
 
 
 
@@ -149,70 +144,6 @@ body {
 
 
 
-
-/* BUTTON STYLES */
-/* .btns{
- 
-    padding: 7px 36px;
-}
-.nav-item{
-     font-size: 0.9rem !important;
-}
-.btn-purple {
-    background-color: #7E00A7 !important;
-    color: white;
-    border-radius: 6px;
-    font-weight: 400;
-}
-
-.btn-outline-purple {
-    border: 2px solid #7E00A7;
-    border-radius: 6px;
-    font-weight: 500;
-}
-
-.btn-outline-purple:hover {
-    background: #7E00A7;
-    color: white;
-} */
-
-/* SEARCH BAR */
-
-/* .search-bar {
-    position: relative;
-    min-width: 410px;
-}
-
-.search-bar input {
-    
-    padding-left: 35px;
-    height: 38px;
-    border: 1.5px solid #d6d6d6;
-}
-
-.search-bar .search-icon {
-    position: absolute;
-    font-size: 1.1rem;
-    color: gray;  
-} */
-
-/* NAV LINKS */
-/* .nav-link {
-    font-weight: 400;
-    font-size: 0.9rem;
-    color: #000000;
-    margin-right: 20px;
-} */
-
-/* .nav-link:hover {
-    color: #6C2FDB !important;
-} */
-
-/* @media (max-width: 576px) {
-  .hero-title {
-    font-size: 1.8rem;
-  }
-}    */
 
 /* Hero section background same as navbar */
 .hero-img-wrapper {
