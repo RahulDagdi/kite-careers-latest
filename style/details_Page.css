@@ -375,12 +375,19 @@ color: var(--title-color);
 .copyright-bar {
   background-color: #7E00A7;
   font-size: 0.9rem;
+  
 }
 
 .copyright-bar-text {
- margin-left: 0px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
 
 }
+
+
+
+
 
 /* RESPONSIVE FIXES */
 @media (max-width: 768px) {
