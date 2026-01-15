@@ -922,10 +922,13 @@
       </div>
     </section>
 
-    <h2 class="latest-goal  mb-0 text-center my-5">Frequently Asked <span class="text-purple span-text">
-    Questions</span></h2>
-    <div class=" d-flex justify-content-end w-75 me-5 pe-5 mb-3"><img src="img/kite-icons/Home/Mask group (3).png "
-    alt="" class="img-fluid "></div>
+    <h2 class="latest-goal  mb-0 text-center my-5">Frequently Asked 
+      <span class="question-wrap">
+      <span class="text-purple span-text">Questions</span>
+      <img src="img/kite-icons/Home/Mask group (3).png" alt="" class="question-img" style="width: 178px;">
+      </span>
+  </h2>
+
 
     <!-- Q/A section-11 -->
 
@@ -1062,32 +1065,56 @@
   <!-- form section-13 -->
   <section class="contact-section py-5">
     <div class="container">
-      <h4 class="contact-text mb-4">Get in Touch</h4>
+
       <div class="row align-items-center g-5">
 
         <!-- LEFT FORM -->
         <div class="col-12 col-md-6">
+          <h4 class="contact-text mb-4">Get in Touch</h4>
           <form>
-            <input type="text" class="form-control mb-3 custom-input" placeholder="Your Name">
-            <input type="text" class="form-control mb-3 custom-input" placeholder="Phone Number">
-            <input type="email" class="form-control mb-3 custom-input" placeholder="Email">
-            <textarea class="form-control mb-5 custom-textarea" rows="4" placeholder="Your Text"></textarea>
-            <button class="btn submit-btn w-100">Submit</button>
+            
+            <input id="name" name="name" type="text" class="form-control mb-3 custom-input" placeholder="Your Name" required>
+
+          
+            <input id="phone" name="phone" type="tel" class="form-control mb-3 custom-input" placeholder="Phone Number">
+
+            
+            <input id="email" name="email" type="email" class="form-control mb-3 custom-input" placeholder="Email" required>
+
+           
+            <textarea id="message" name="message" class="form-control mb-5 custom-textarea" rows="4" placeholder="Your Text"></textarea>
+
+            <button type="submit" class="btn submit-btn w-100">Submit</button>
           </form>
+
         </div>
 
         <!-- RIGHT IMAGE -->
-        <div class="col-12 col-md-6 ">
+        <div class="col-12 col-md-6" >
           <!-- Decorative Shapes -->
-          <div class="purple-shape-under w-50">
-            <img src="img/Home/Vector 3.png" alt="" class="img-fluid">
+          <!-- <div class="purple-shape-under w-50">
+            <img src="img/kite-icons/Home/Vector 3.png " alt="" class="img-fluid">
             <div class="purple-shape-top">
-              <img src="img/Home/Vector 4.png" alt="" class="img-fluid">
+              <img src="img/kite-icons/Home/Vector 4.png " alt="" class="img-fluid">
             </div>
-          </div>
+          </div> -->
           <!-- Image -->
-          <img src="img/Home/teacher-doing-english-lesson-online-his-students 1.png" class="img-fluid  contact-img"
-          alt="">
+
+
+
+            <div class="image-wrapper position-relative">
+    <img
+      src="img/kite-icons/Home/Group 390.png"
+      class="contact-img img-fluid "
+      alt=""
+    >
+  </div>
+   
+
+     
+      
+         
+         
         </div>
 
       </div>

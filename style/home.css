@@ -108,7 +108,7 @@ body {
 /* ---------------- FORMS ---------------- */
 
 .form-control {
-  height: 43px;
+  /* height: 43px; */
   border-radius: 10px;
   border: 1px solid #454C63 !important;
   color: var(--text-color) !important;
@@ -1255,12 +1255,12 @@ position: absolute;
  }
  .team-goal{
   font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 2.375rem;
   color: #6E7380;
  }
  .team-span{
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2.375rem;
  }
  .Photo-section{
   background-color: #FAFAFA;
@@ -1280,12 +1280,27 @@ position: absolute;
   .profile-role {
     font-weight: 400;
     font-size: 1.56rem;
+    line-height: 0.9;
     color: #6E7380;
+  }
+  .profile-text{
+    margin-bottom: 1.5rem;
   }
 
 
 
 /* Q/A section-11 */
+  .question-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.question-img {
+  position: absolute;
+  left: 6%;
+  bottom: -54%; /* adjust as needed */
+  /* width: 120px;  */
+}
 .accordion-item{
   background-color: #FDF9FF !important;
    border: none;
@@ -1318,18 +1333,18 @@ position: absolute;
 }
 .small{
   font-weight:400 ;
-  font-size: 1.4rem;
+  font-size: 1.375rem;
 }
 .large{
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2.375rem;
 }
 
 /* BUTTON */
 .for-more-btn {
   background: white;
   color: #7E00A7;
-  padding: 10px 70px;
+  padding: 0.688rem 5rem;
   font-weight: 400;
   border-radius: 10px;
   font-size: 1.1rem;
@@ -1393,23 +1408,29 @@ position: absolute;
 }
 .contact-text{
 font-weight: 700;
-font-size: 2.4rem;
+font-size: 2.375rem;
 color: black;
 }
 
 /* Form Inputs */
-.custom-input, .custom-textarea {
-  padding: 11px 12px;
-  border-radius: 10px;
-  border: 1px solid #454C63;
+.custom-input {
+  height: 60px;
+  padding:0.75rem;
   font-size: 1.1rem;
   font-weight: 400;
 }
+.custom-textarea {
+   padding:0.75rem;
+  font-size: 1.1rem;
+  resize: none;
+}
+
 
 .submit-btn {
   background: #7E00A7;
   color: white;
-  padding: 10px;
+  /* padding: 10px; */
+  height: 60px;
   font-weight: 400;
   font-size: 1.1rem;
   border-radius: 10px;
@@ -1420,15 +1441,39 @@ color: black;
   color: white;
 }
 
+
 /* Image Styling */
-.contact-img {
-  width: 100%;
+/* .contact-img {
+   width: 100%;
   border-radius: 10px;
   position: relative;
   z-index: 3;
-  object-fit: cover;
-  
+  object-fit: cover; 
+} */
+
+
+
+/* .contact-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  transform: translate(0%, 0%);
+} */
+ .image-wrapper {
+  min-height: 640px;
 }
+
+.contact-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(15%, -13%);
+  max-height: 100%;
+  width: auto;
+}
+
+
 
 /* Purple Decorative Shapes */
 .purple-shape-under {
@@ -1447,14 +1492,19 @@ color: black;
 
 @media  (max-width: 1400px) {
   .contact-img {
-    height: 430px;
-    object-fit: cover; /* optional – image stretching avoid karega */
+    height: 85%;
+    transform: translate(6%, -14%);
   }
   .purple-shape-top{
     right: 15%;
     background-color: #FCF5FF;
   }
 }
-
+/* @media  (max-width: 1200px) {
+  .contact-img {
+    height: 85%;
+    transform: translate(0%, -15%);
+  }
+} */
 
 /*  */
