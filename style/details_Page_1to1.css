@@ -417,7 +417,9 @@ color: var(--title-color);
   font-size: 0.9rem;
 }
 .copyright-bar-text {
- margin-left: 0px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
 
 }
 
