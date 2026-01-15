@@ -70,8 +70,18 @@ object-fit: cover;
   color: #6e7380;
 }
 .lock-btn{
-height: 22px;
-width: 23px;
+height: 24px;
+width: 18px;
+}
+.hidden{
+  display: none;
+}
+#toggleBtn {
+  transition: transform 0.3s ease;
+}
+
+#toggleBtn.rotate {
+  transform: rotate(180deg);
 }
 .Lecture-detail {
   font-size: 1.875rem;
