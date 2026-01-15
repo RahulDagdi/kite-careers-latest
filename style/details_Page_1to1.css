@@ -416,6 +416,10 @@ color: var(--title-color);
   background-color: #7E00A7;
   font-size: 0.9rem;
 }
+.copyright-bar-text {
+ margin-left: 0px;
+
+}
 
 /* RESPONSIVE FIXES */
 @media (max-width: 768px) {
@@ -620,7 +624,7 @@ color: var(--primary-color);
   border-radius: 50%;
   border: 1px solid var(--primary-color);
   object-fit: cover;
-
+  
   top:-25%;
   left:45%;
   transform: translateX(-50);
