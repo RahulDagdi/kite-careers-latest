@@ -58,7 +58,16 @@
 
         <div class="d-flex align-items-center justify-content-between">
           <p class="Lecture-detail mb-2">What you will learn in this complete course</p>
-          <img src="img/kite-icons/mycoursedetail/_.svg" alt="">
+         
+          <img 
+          src="img/kite-icons/mycoursedetail/_.svg" 
+          alt="" 
+          id="toggleBtn"
+          style="cursor:pointer;"
+          class="lock-btn"
+          >
+         
+         
         </div>
 
 
@@ -66,6 +75,20 @@
           <a href="aboutthiscourse.html" class="action-link"><img src="img/kite-icons/mycoursedetail/Vector (4).svg" alt="" class="me-1"> Share this course</a>
           <a href="courseResource.html" class="action-link"><img src="img/kite-icons/mycoursedetail/download_svgrepo.com.svg" alt="" class="me-1"> Download Resource</a>
         </div>
+
+        <p class="hidden toggle-content">What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this complete course What you will learn in this more..</p>
+
+        <script>
+          const toggleBtn = document.getElementById("toggleBtn");
+          const content = document.querySelector(".toggle-content");
+
+          toggleBtn.addEventListener("click", () => {
+            content.classList.toggle("hidden");
+
+            // optional: icon rotate effect
+            toggleBtn.classList.toggle("rotate");
+          });
+      </script>
 
         <!-- Lecture List -->
         <div class="lecture-list">
