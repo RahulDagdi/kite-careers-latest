@@ -22,7 +22,18 @@
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+  .coursebtn-business{
+    width: 128px;
+    white-space: nowrap;
 
+  }
+  .readbtns:hover {
+    background-color: #7E00A7;
+    color:white;
+    
+}
+</style>
 <body>
 
  <div class="top-offer-bar text-white py-2">
@@ -270,10 +281,21 @@
       </div>
     </div>
   </div>
+
  <!-- Cards section-4 -->
   <div class="container ">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
     <h1 class="whatyoulearn-head mt-5">What you will learn</h1>
     <p class="whatyoulearn-para mb-3">Recommended for You</p>
+    </div>
+    <div>
+       <!-- <a class="btn btn-outline-purple btn-control" href="#">See All</a> -->
+      <button  class="coursebtn-business btn-control">See all</button>
+    </div>
+
+</div>
+ 
 
     <div class="row g-5 align-items-center">
       <!-- Card 1 -->
@@ -497,7 +519,9 @@
       </div>
     </div>
   </div>
-
+<div class="d-flex justify-content-center mt-3">
+   <button  class="coursebtn-business btn-control ">See all</button>
+</div>
   <!-- Works section-6 -->
   <div class="container">
     <div class="howitwork-wrap text-end my-5">
@@ -1107,7 +1131,7 @@
            
             <textarea id="message" name="message" class="form-control mb-5 custom-textarea" rows="4" placeholder="Your Text"></textarea>
 
-            <button type="submit" class="btn submit-btn w-100">Submit</button>
+            <button type="submit" class="btn btn-control submit-btn w-100">Submit</button>
           </form>
 
         </div>
